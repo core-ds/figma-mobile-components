@@ -146,5 +146,5 @@ const findPairs = async (components: ShortFigmaItem[]) => {
     "UTF-8"
   );
 
-  // await findPairs(allComponents);
+  await findPairs(allComponents);
 })();
