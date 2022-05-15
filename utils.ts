@@ -2,7 +2,7 @@ import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
 
-const FIGMA_API_TOKEN = '';
+const FIGMA_API_TOKEN = '371312-1c415626-9c81-43c1-8fab-fcd2fed9261f';
 const FIGMA_API_URL = 'https://api.figma.com/v1';
 
 const MAX_REQUESTS_COUNT = 5;

@@ -530,15 +530,6 @@
         "variant": "Type=CARD"
     },
     {
-        "key": "b8a27babb8016621bda629c6d29066395f80e9bd",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "❌ExpandableProductView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "State=Default, Style=Subline, Status=Off"
-    },
-    {
         "key": "d9f8e03628ef00877e70bc66d40111198426b4f5",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -546,6 +537,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "State=Default, Style=Default, Status=Off"
+    },
+    {
+        "key": "b8a27babb8016621bda629c6d29066395f80e9bd",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "❌ExpandableProductView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "State=Default, Style=Subline, Status=Off"
     },
     {
         "key": "45f0d909d47c1f2d6bd3efa62e43efe1513fadc6",
@@ -1150,6 +1150,15 @@
         "variant": "FullScreen=on"
     },
     {
+        "key": "fe9b15f0db861b910a2dba9bb0d921644d2603c2",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "🤟 AlertViewTemplate / ErrorStatePreset",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Preset=seconTry"
+    },
+    {
         "key": "eb72272539918206f60624e68d7c6adb9db893d0",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -1175,15 +1184,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Preset=lostInternet"
-    },
-    {
-        "key": "fe9b15f0db861b910a2dba9bb0d921644d2603c2",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "🤟 AlertViewTemplate / ErrorStatePreset",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Preset=seconTry"
     },
     {
         "key": "3c646acc9c30f3c2e20ca9f09f1e4b1f3208ae58",
@@ -1384,6 +1384,24 @@
         "variant": "Buttons=off, Bubbles=1, Style=outgoing"
     },
     {
+        "key": "386e6b5e4d80ba80fa6f622d16f56e017827500a",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "🤟 ButtonViewStack",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Preset=2 Vertical Buttons, Size=Large, Horizontal Margins=On"
+    },
+    {
+        "key": "d4776f53fe23361c09b54b781403f9a3dec6c721",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "🤟 ButtonViewStack",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Preset=Label + Icon, Size=Large, Horizontal Margins=On"
+    },
+    {
         "key": "8e3db291c5ae375e8bddebd73b91b9fc9aefd9e5",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -1510,15 +1528,6 @@
         "variant": "Preset=Label + Icon, Size=Small, Horizontal Margins=Off"
     },
     {
-        "key": "386e6b5e4d80ba80fa6f622d16f56e017827500a",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "🤟 ButtonViewStack",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Preset=2 Vertical Buttons, Size=Large, Horizontal Margins=On"
-    },
-    {
         "key": "2f7847aba7bbde8b5ea571a13571801b503575b8",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -1526,15 +1535,6 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Preset=2 Vertical Buttons, Size=Large, Horizontal Margins=Off"
-    },
-    {
-        "key": "d4776f53fe23361c09b54b781403f9a3dec6c721",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "🤟 ButtonViewStack",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Preset=Label + Icon, Size=Large, Horizontal Margins=On"
     },
     {
         "key": "c94d6bd67b7edc8e9d24ea8e71f5a809cf954524",
@@ -2167,6 +2167,24 @@
         "variant": "Preset=document"
     },
     {
+        "key": "2938659d3c0684e0a7a8907e9dc29a98fa566a88",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "🤟 MainButtonStack",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Preset=Label + Icon, Size=Large, Horizontal Margins=Off"
+    },
+    {
+        "key": "3942ebc48b6fd7b5567f699223ac5c47a875836d",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "🤟 MainButtonStack",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Preset=Label + Icon, Size=Medium, Horizontal Margins=Off"
+    },
+    {
         "key": "f35c60aaf0aedeb52886351e917fa291224ab617",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -2246,24 +2264,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Preset=2 Horizontal Buttons, Size=Medium, Horizontal Margins=On"
-    },
-    {
-        "key": "3942ebc48b6fd7b5567f699223ac5c47a875836d",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "🤟 MainButtonStack",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Preset=Label + Icon, Size=Medium, Horizontal Margins=Off"
-    },
-    {
-        "key": "2938659d3c0684e0a7a8907e9dc29a98fa566a88",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "🤟 MainButtonStack",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Preset=Label + Icon, Size=Large, Horizontal Margins=Off"
     },
     {
         "key": "1e7ea4828ffcb1bf7c1d3e3eae5fd2c3f97117a8",
@@ -2689,6 +2689,15 @@
         "variant": "Preset=Scrollable, Size=Medium"
     },
     {
+        "key": "b080de58701d1890743b0f712bf588f6bd04b1b3",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "🤟MainButtonTemplate",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Preset=Label + Icon, Disclaimer=Off, Tabbar=Off, Background=Off"
+    },
+    {
         "key": "836b3820a2b796eb1e04d890c61d9ff40cd29d13",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -2804,15 +2813,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Preset=2 Vertical Buttons, Disclaimer=Off, Tabbar=On, Background=On"
-    },
-    {
-        "key": "b080de58701d1890743b0f712bf588f6bd04b1b3",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "🤟MainButtonTemplate",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Preset=Label + Icon, Disclaimer=Off, Tabbar=Off, Background=Off"
     },
     {
         "key": "ade0a432d141d5f79f42125df2fbc7fbe92c3c6a",
@@ -2977,13 +2977,13 @@
         "variant": "Preset=Label + Icon, Disclaimer=Off, Tabbar=On, Background=On"
     },
     {
-        "key": "16cba89aa94c740f86c22306b2765b0fd4bfe540",
+        "key": "4caff3182ae9cc0bbf043870607dcc57a6d33b39",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
         "name": "🤟Spacing",
         "description": "",
         "platform": "IOS",
-        "variant": "Size=x4 (32dp) ––– gap 2xl"
+        "variant": "Size=x2 (16pt) ––– gap m"
     },
     {
         "key": "0ed32219fbb0d57c8ebe5c198e6e60054d542b06",
@@ -2995,6 +2995,15 @@
         "variant": "Size=x3 (24pt) ––– gap xl"
     },
     {
+        "key": "2f9ff6700342b83bc0cd82b02f9ab1c35eb598da",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "🤟Spacing",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=x1 (8pt) ––– gap xs"
+    },
+    {
         "key": "d0bc5f66dc10a1c59e132338a1b8298a6e710dc5",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -3004,22 +3013,13 @@
         "variant": "Size=x0.5 (4pt) ––– gap 2xs"
     },
     {
-        "key": "bc601ff9dad23e833c1161db51d5d2c5273d4a7b",
+        "key": "16cba89aa94c740f86c22306b2765b0fd4bfe540",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
         "name": "🤟Spacing",
         "description": "",
         "platform": "IOS",
-        "variant": "Size=x0.25 (2pt) ––– gap 4xs"
-    },
-    {
-        "key": "91430c1a989b48555b1b6c04b02f1d054bfc4a23",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "🤟Spacing",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=x5 (40dp) ––– gap 3xl"
+        "variant": "Size=x4 (32dp) ––– gap 2xl"
     },
     {
         "key": "b5c79d342c70f26382513bbd20dc9aecb6846d91",
@@ -3031,13 +3031,13 @@
         "variant": "Size=x1.5 (12pt) ––– gap s"
     },
     {
-        "key": "4caff3182ae9cc0bbf043870607dcc57a6d33b39",
+        "key": "bc601ff9dad23e833c1161db51d5d2c5273d4a7b",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
         "name": "🤟Spacing",
         "description": "",
         "platform": "IOS",
-        "variant": "Size=x2 (16pt) ––– gap m"
+        "variant": "Size=x0.25 (2pt) ––– gap 4xs"
     },
     {
         "key": "f1add7a94503d7b3a63adeb48dcbdaa3589ac667",
@@ -3049,13 +3049,13 @@
         "variant": "Size=x2.5 (20pt) ––– gap l"
     },
     {
-        "key": "2f9ff6700342b83bc0cd82b02f9ab1c35eb598da",
+        "key": "91430c1a989b48555b1b6c04b02f1d054bfc4a23",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
         "name": "🤟Spacing",
         "description": "",
         "platform": "IOS",
-        "variant": "Size=x1 (8pt) ––– gap xs"
+        "variant": "Size=x5 (40dp) ––– gap 3xl"
     },
     {
         "key": "be1067d4873c2cd36a39e22a5e4a8ffaae6c5f34",
@@ -4464,6 +4464,15 @@
         "platform": "IOS"
     },
     {
+        "key": "b4f0baa08cdd966354b32f845e76b29a3aac9a42",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "hasMainButtonStack=true, hasSubtitle=false, HorizontalMargin=horizontalMargin"
+    },
+    {
         "key": "66173f0fed9ed5088476c50d38f88494784dfcc7",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -4608,15 +4617,6 @@
         "variant": "hasMainButtonStack=true, hasSubtitle=false, HorizontalMargin=none"
     },
     {
-        "key": "b4f0baa08cdd966354b32f845e76b29a3aac9a42",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "hasMainButtonStack=true, hasSubtitle=false, HorizontalMargin=horizontalMargin"
-    },
-    {
         "key": "b3145271d2c72c59488de5ebbb10cc9b8abe36ef",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -4653,6 +4653,96 @@
         "variant": "ButtonViewStack=false, Subtitle=true, Details=false, HorizontalMargin=none, Height=wrapContent"
     },
     {
+        "key": "ec3a4eb341b01af5c666907d3299738373fa6189",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "ButtonViewStack=false, Subtitle=true, Details=true, HorizontalMargin=extendedHorizontalMargin, Height=matchParent"
+    },
+    {
+        "key": "eb3f7b2556bf76210585d0e308b47cd209d310f4",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "ButtonViewStack=true, Subtitle=true, Details=false, HorizontalMargin=horizontalMargin, Height=wrapContent"
+    },
+    {
+        "key": "e0885416c62e0f52af87408829b657b49d644335",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "ButtonViewStack=false, Subtitle=true, Details=false, HorizontalMargin=none, Height=matchParent"
+    },
+    {
+        "key": "dea14227e4c58d6db063c689326cbbf5914bdb36",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "ButtonViewStack=false, Subtitle=false, Details=true, HorizontalMargin=horizontalMargin, Height=matchParent"
+    },
+    {
+        "key": "d0cf91f023d20243da4158f0dfe85f0c73ec561c",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "ButtonViewStack=true, Subtitle=true, Details=false, HorizontalMargin=horizontalMargin, Height=matchParent"
+    },
+    {
+        "key": "c9b9a3b668f32c4ad65d508a5b6acb3eeadfcf89",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "ButtonViewStack=true, Subtitle=false, Details=false, HorizontalMargin=horizontalMargin, Height=wrapContent"
+    },
+    {
+        "key": "c6737217c51bb11ae1d2beaf3f8ca8158ebcb7f8",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "ButtonViewStack=true, Subtitle=true, Details=true, HorizontalMargin=horizontalMargin, Height=matchParent"
+    },
+    {
+        "key": "c23a0007c0e1764575544f539e21edea970ca16e",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "ButtonViewStack=false, Subtitle=false, Details=false, HorizontalMargin=extendedHorizontalMargin, Height=matchParent"
+    },
+    {
+        "key": "c1a605b518cacf3123a1c9fdb6fe798092af4e1e",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "ButtonViewStack=true, Subtitle=false, Details=true, HorizontalMargin=horizontalMargin, Height=matchParent"
+    },
+    {
+        "key": "be9f68e8d3da11d98c4def76f21bd2ad1a6b9dc9",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "ButtonViewStack=true, Subtitle=true, Details=true, HorizontalMargin=none, Height=matchParent"
+    },
+    {
         "key": "a8247389f8bec538424a4bab1e631943e797668b",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -4678,6 +4768,15 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "ButtonViewStack=false, Subtitle=true, Details=true, HorizontalMargin=horizontalMargin, Height=matchParent"
+    },
+    {
+        "key": "948a55cef2e403e410e2f843270b8371345be20b",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "ButtonViewStack=true, Subtitle=false, Details=true, HorizontalMargin=none, Height=matchParent"
     },
     {
         "key": "8666aa849520f726fac584c43e0a7241354138d8",
@@ -4743,6 +4842,15 @@
         "variant": "ButtonViewStack=false, Subtitle=true, Details=false, HorizontalMargin=horizontalMargin, Height=matchParent"
     },
     {
+        "key": "5fa863bad46fb66f7569081f96dd36e283eeb5b4",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "AdCardView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "ButtonViewStack=false, Subtitle=false, Details=false, HorizontalMargin=extendedHorizontalMargin, Height=wrapContent"
+    },
+    {
         "key": "56e05df7aa2d85406bee060edb822375ccef6cbb",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -4797,121 +4905,13 @@
         "variant": "ButtonViewStack=false, Subtitle=false, Details=true, HorizontalMargin=none, Height=matchParent"
     },
     {
-        "key": "ec3a4eb341b01af5c666907d3299738373fa6189",
+        "key": "2706b26425398bd7931b640c678fda7974baea01",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
         "name": "AdCardView",
         "description": "",
         "platform": "ANDROID",
-        "variant": "ButtonViewStack=false, Subtitle=true, Details=true, HorizontalMargin=extendedHorizontalMargin, Height=matchParent"
-    },
-    {
-        "key": "eb3f7b2556bf76210585d0e308b47cd209d310f4",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "ButtonViewStack=true, Subtitle=true, Details=false, HorizontalMargin=horizontalMargin, Height=wrapContent"
-    },
-    {
-        "key": "e0885416c62e0f52af87408829b657b49d644335",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "ButtonViewStack=false, Subtitle=true, Details=false, HorizontalMargin=none, Height=matchParent"
-    },
-    {
-        "key": "dea14227e4c58d6db063c689326cbbf5914bdb36",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "ButtonViewStack=false, Subtitle=false, Details=true, HorizontalMargin=horizontalMargin, Height=matchParent"
-    },
-    {
-        "key": "d0cf91f023d20243da4158f0dfe85f0c73ec561c",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "ButtonViewStack=true, Subtitle=true, Details=false, HorizontalMargin=horizontalMargin, Height=matchParent"
-    },
-    {
-        "key": "c9b9a3b668f32c4ad65d508a5b6acb3eeadfcf89",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "ButtonViewStack=true, Subtitle=false, Details=false, HorizontalMargin=horizontalMargin, Height=wrapContent"
-    },
-    {
-        "key": "c23a0007c0e1764575544f539e21edea970ca16e",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "ButtonViewStack=false, Subtitle=false, Details=false, HorizontalMargin=extendedHorizontalMargin, Height=matchParent"
-    },
-    {
-        "key": "c6737217c51bb11ae1d2beaf3f8ca8158ebcb7f8",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "ButtonViewStack=true, Subtitle=true, Details=true, HorizontalMargin=horizontalMargin, Height=matchParent"
-    },
-    {
-        "key": "c1a605b518cacf3123a1c9fdb6fe798092af4e1e",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "ButtonViewStack=true, Subtitle=false, Details=true, HorizontalMargin=horizontalMargin, Height=matchParent"
-    },
-    {
-        "key": "be9f68e8d3da11d98c4def76f21bd2ad1a6b9dc9",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "ButtonViewStack=true, Subtitle=true, Details=true, HorizontalMargin=none, Height=matchParent"
-    },
-    {
-        "key": "948a55cef2e403e410e2f843270b8371345be20b",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "ButtonViewStack=true, Subtitle=false, Details=true, HorizontalMargin=none, Height=matchParent"
-    },
-    {
-        "key": "5fa863bad46fb66f7569081f96dd36e283eeb5b4",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "ButtonViewStack=false, Subtitle=false, Details=false, HorizontalMargin=extendedHorizontalMargin, Height=wrapContent"
-    },
-    {
-        "key": "0120ce381c80927f1757b9c27cc67ae8c6bac10a",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "AdCardView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "ButtonViewStack=true, Subtitle=false, Details=false, HorizontalMargin=extendedHorizontalMargin, Height=matchParent"
+        "variant": "ButtonViewStack=false, Subtitle=false, Details=false, HorizontalMargin=horizontalMargin, Height=wrapContent"
     },
     {
         "key": "1e2927df0cc643cc2b719aa702b3905e9928b991",
@@ -4959,13 +4959,13 @@
         "variant": "ButtonViewStack=true, Subtitle=false, Details=true, HorizontalMargin=extendedHorizontalMargin, Height=matchParent"
     },
     {
-        "key": "2706b26425398bd7931b640c678fda7974baea01",
+        "key": "0120ce381c80927f1757b9c27cc67ae8c6bac10a",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
         "name": "AdCardView",
         "description": "",
         "platform": "ANDROID",
-        "variant": "ButtonViewStack=false, Subtitle=false, Details=false, HorizontalMargin=horizontalMargin, Height=wrapContent"
+        "variant": "ButtonViewStack=true, Subtitle=false, Details=false, HorizontalMargin=extendedHorizontalMargin, Height=matchParent"
     },
     {
         "key": "e68b11ca6066ee311b11a7c39bf14322b92263b3",
@@ -5085,15 +5085,6 @@
         "variant": "State=Skeleton"
     },
     {
-        "key": "40959008ab28c9033b85ff2dcc41b0e5c7ec8940",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "AdvicesWidget",
-        "description": "Баннеры Рабблз iOS",
-        "platform": "IOS",
-        "variant": "State=Default"
-    },
-    {
         "key": "fb9e77955c6fcf66eb6b9dd419f85457ac12ffdf",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -5101,6 +5092,15 @@
         "description": "Баннеры Рабблз iOS",
         "platform": "IOS",
         "variant": "State=Skeleton"
+    },
+    {
+        "key": "40959008ab28c9033b85ff2dcc41b0e5c7ec8940",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "AdvicesWidget",
+        "description": "Баннеры Рабблз iOS",
+        "platform": "IOS",
+        "variant": "State=Default"
     },
     {
         "key": "1558a27343722c26b351a050126140cd2b2f4ee8",
@@ -6856,15 +6856,6 @@
         "variant": "State=Normal, BannerWrapper Style=Shadow"
     },
     {
-        "key": "04b41b6d397276783c236e46bf04d4f911f2c3d9",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "BalanceWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "State=Error, BannerWrapper Style=Stroke"
-    },
-    {
         "key": "9b2f9b9acfbc594cd9bb37626f51a6d6d9f6452b",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -6881,6 +6872,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "State=Loading, BannerWrapper Style=Shadow"
+    },
+    {
+        "key": "04b41b6d397276783c236e46bf04d4f911f2c3d9",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "BalanceWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "State=Error, BannerWrapper Style=Stroke"
     },
     {
         "key": "31959d58e79d3eed231092d1a76a69f5346d0534",
@@ -7017,15 +7017,6 @@
         "variant": "Type=Skeleton"
     },
     {
-        "key": "68d767d71d53a34b5fe12832ab2deeb77a226872",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "BannerWrapper",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Preset=HorizontalProgressView, Style=Fill"
-    },
-    {
         "key": "fb16775c59b7fe4fdeb265e847836c8cd8d219cf",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -7033,6 +7024,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "Preset=RightIconWrapper, Style=Fill"
+    },
+    {
+        "key": "68d767d71d53a34b5fe12832ab2deeb77a226872",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "BannerWrapper",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Preset=HorizontalProgressView, Style=Fill"
     },
     {
         "key": "6625bc2f48850fdb015704d4c98307971d8b8aa2",
@@ -7161,6 +7161,24 @@
         "variant": "Preset=ProductView, Style=Stroke"
     },
     {
+        "key": "8ea47805decc7b20cb108982be20d3f2ae76bc0d",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "BannerWrapper",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Preset=DataView, Style=Shadow, HorizontalMargin=Both"
+    },
+    {
+        "key": "fe12fcc2308523f348071cda4a7161bb8db67039",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "BannerWrapper",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Preset=RightIconWrapper, Style=Fill, HorizontalMargin=Both"
+    },
+    {
         "key": "519fd2cff1120159b6f1bc83e4e848f4a8bee242",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -7168,6 +7186,15 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Preset=DataView, Style=Fill, HorizontalMargin=Both"
+    },
+    {
+        "key": "abd2b65af2ec3efc98c6fd9af9a6c3a990436571",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "BannerWrapper",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Preset=DataView, Style=Stroke, HorizontalMargin=Both"
     },
     {
         "key": "a1e1830d0c22ffeec536ed7ff3a554fe548c7849",
@@ -7215,24 +7242,6 @@
         "variant": "Preset=ErrorLoadingView, Style=Fill, HorizontalMargin=None"
     },
     {
-        "key": "abd2b65af2ec3efc98c6fd9af9a6c3a990436571",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "BannerWrapper",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Preset=DataView, Style=Stroke, HorizontalMargin=Both"
-    },
-    {
-        "key": "8ea47805decc7b20cb108982be20d3f2ae76bc0d",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "BannerWrapper",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Preset=DataView, Style=Shadow, HorizontalMargin=Both"
-    },
-    {
         "key": "722d7146df3243cd6fc25d0b5434232cfe71d42d",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -7267,15 +7276,6 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Preset=HorizontalProgressView, Style=Fill, HorizontalMargin=Both"
-    },
-    {
-        "key": "fe12fcc2308523f348071cda4a7161bb8db67039",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "BannerWrapper",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Preset=RightIconWrapper, Style=Fill, HorizontalMargin=Both"
     },
     {
         "key": "f49cca3e0daefad1fbaf9582fd4ef158ca80ddd4",
@@ -7332,15 +7332,6 @@
         "variant": "Preset=Custom, Style=Fill"
     },
     {
-        "key": "c611912aa65aac4484c2e61014ff7e2634523df2",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "BannerWrapper",
-        "description": "Для баннеров с локальным контентом",
-        "platform": "IOS",
-        "variant": "Preset=Custom, Style=Shadow"
-    },
-    {
         "key": "60c093f819f02bd79e4f8dfe2dbbb0889c5ddb11",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -7348,6 +7339,15 @@
         "description": "Для баннеров с локальным контентом",
         "platform": "IOS",
         "variant": "Preset=Custom, Style=Stroke"
+    },
+    {
+        "key": "c611912aa65aac4484c2e61014ff7e2634523df2",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "BannerWrapper",
+        "description": "Для баннеров с локальным контентом",
+        "platform": "IOS",
+        "variant": "Preset=Custom, Style=Shadow"
     },
     {
         "key": "8325d825e54bb332a4d192dfd4d57c84ec189961",
@@ -7403,6 +7403,15 @@
         "variant": "Status=In Progress"
     },
     {
+        "key": "3d71839bc72090910f48ca1e8bf2e2a92b6fa32d",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "BenefitsWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Status=Complete"
+    },
+    {
         "key": "6a9b16866d5f055ac7ded1f6634a393812692515",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -7419,15 +7428,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Status=Loading"
-    },
-    {
-        "key": "3d71839bc72090910f48ca1e8bf2e2a92b6fa32d",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "BenefitsWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Status=Complete"
     },
     {
         "key": "283fc4e585e2c812f460764c161ca6014a04ccb0",
@@ -7583,15 +7583,6 @@
         "variant": "State=Error"
     },
     {
-        "key": "0990cf739ed487a0cbb8c9e9b7559657ccc3a10c",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "BrokeradgeSummaryWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "State=Default"
-    },
-    {
         "key": "49a0731d8767a8586ab25472476de166b648f09d",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -7599,6 +7590,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "State=Skeleton"
+    },
+    {
+        "key": "0990cf739ed487a0cbb8c9e9b7559657ccc3a10c",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "BrokeradgeSummaryWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "State=Default"
     },
     {
         "key": "cbd3c7b9d266a30427b802d11c2f31684d725b63",
@@ -7734,6 +7734,33 @@
         "variant": "Style=Primary, State=Enabled, Morphology=Label, Size=Large"
     },
     {
+        "key": "bb8043d49fdb740a1bbde576a90443af62be088a",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "ButtonView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Style=Secondary, State=Enabled, Morphology=Label, Size=Large"
+    },
+    {
+        "key": "acc9fc9a8d2be7d040be0857ef96a397b7bf1dc7",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "ButtonView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Style=Secondary, State=Enabled, Morphology=Label, Size=Medium"
+    },
+    {
+        "key": "301498e5ce4af9687ef7012a9344799965197947",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "ButtonView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Style=Secondary, State=Enabled, Morphology=Label + R Icon, Size=Small"
+    },
+    {
         "key": "4961f88c6144e3e01da098fc583247a6d19d7f0a",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -7761,15 +7788,6 @@
         "variant": "Style=Primary, State=Enabled, Morphology=Label, Size=Medium"
     },
     {
-        "key": "301498e5ce4af9687ef7012a9344799965197947",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "ButtonView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Style=Secondary, State=Enabled, Morphology=Label + R Icon, Size=Small"
-    },
-    {
         "key": "1ab7e1fbaa0e37a6c6d5e2c7feafcbe9c66b1f50",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -7777,15 +7795,6 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Style=Custom, State=Enabled, Morphology=Label, Size=Medium"
-    },
-    {
-        "key": "bb8043d49fdb740a1bbde576a90443af62be088a",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "ButtonView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Style=Secondary, State=Enabled, Morphology=Label, Size=Large"
     },
     {
         "key": "cc1bb05f77e2172704a3c5a018a46498adcff124",
@@ -10722,15 +10731,6 @@
         "variant": "Style=Primary, State=Enabled, Morphology=L Icon + Label, Size=Medium"
     },
     {
-        "key": "acc9fc9a8d2be7d040be0857ef96a397b7bf1dc7",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "ButtonView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Style=Secondary, State=Enabled, Morphology=Label, Size=Medium"
-    },
-    {
         "key": "acc81b7b153b451bebb85f5c337b37bb70bccac1",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -11808,6 +11808,15 @@
         "variant": "Style=Product, Product=Alfa Miles"
     },
     {
+        "key": "07a968502c01423f29a5f219141ea12ad2fde72a",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "CardIconView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Type=Account, Size=Small, State=Default"
+    },
+    {
         "key": "2c1e87a7cd5fd110b9ae4bba5cf52daea66de7bd",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -11824,15 +11833,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Type=Card, Size=Small, State=Default"
-    },
-    {
-        "key": "07a968502c01423f29a5f219141ea12ad2fde72a",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "CardIconView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Type=Account, Size=Small, State=Default"
     },
     {
         "key": "d01bc23c8cce4cc875f536bf80f28274b8008849",
@@ -12132,6 +12132,15 @@
         "variant": "Type=Card, Size=DEPRECATEDXSmall, State=Default"
     },
     {
+        "key": "9b4ebe2264f1b54da1dee733c0b003fabb04e67b",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "CardIconView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Type=Card, Size=XSmall, State=Default"
+    },
+    {
         "key": "da3b48ef295ff14dfcd8fd3bf0cbfa1694877ff4",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -12166,15 +12175,6 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Type=Stack, Size=Medium, State=Default"
-    },
-    {
-        "key": "9b4ebe2264f1b54da1dee733c0b003fabb04e67b",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "CardIconView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Type=Card, Size=XSmall, State=Default"
     },
     {
         "key": "9a29746f0bbbe3687f06079eb714db1841e56544",
@@ -14170,6 +14170,24 @@
         "platform": "ANDROID"
     },
     {
+        "key": "259deeb9128fe31a0be3a59d1416704866263e7c",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "CircleProgressIconView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=Medium, State=Complete (Clockwise), Stroke=Off, Data=Icon, FillOnComplete=On"
+    },
+    {
+        "key": "e534ce14c098f4536f954d030fe0e08d6cb51442",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "CircleProgressIconView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=Small, State=Complete (Clockwise), Stroke=On, Data=Text, FillOnComplete=Off"
+    },
+    {
         "key": "8f64fbeeb082760c151f77a5e85ea9db7aa46561",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -14177,6 +14195,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "Size=Small, State=In Progress, Stroke=On, Data=Text, FillOnComplete=Off"
+    },
+    {
+        "key": "3d82623842600d18bf2d5a4a95be488ceeb2f6b4",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "CircleProgressIconView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=Small, State=In Progress, Stroke=On, Data=None, FillOnComplete=Off"
     },
     {
         "key": "746c79e5c45d836e9986c34218d749b8631ed44f",
@@ -14197,15 +14224,6 @@
         "variant": "Size=Medium, State=In Progress, Stroke=On, Data=Text, FillOnComplete=Off"
     },
     {
-        "key": "3d82623842600d18bf2d5a4a95be488ceeb2f6b4",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "CircleProgressIconView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=Small, State=In Progress, Stroke=On, Data=None, FillOnComplete=Off"
-    },
-    {
         "key": "ac5cde0001fcd449f2e808857261676d40e6d118",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -14222,15 +14240,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Size=XSmall, State=Complete (Clockwise), Stroke=Off, Data=Icon, FillOnComplete=On"
-    },
-    {
-        "key": "259deeb9128fe31a0be3a59d1416704866263e7c",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "CircleProgressIconView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=Medium, State=Complete (Clockwise), Stroke=Off, Data=Icon, FillOnComplete=On"
     },
     {
         "key": "fe012e461b88b1000899bf7e72afb246576bfad3",
@@ -14285,15 +14294,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Size=XSmall, State=Complete (Clockotherwise), Stroke=On, Data=None, FillOnComplete=Off"
-    },
-    {
-        "key": "e534ce14c098f4536f954d030fe0e08d6cb51442",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "CircleProgressIconView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=Small, State=Complete (Clockwise), Stroke=On, Data=Text, FillOnComplete=Off"
     },
     {
         "key": "e26c93bf5c098ace4651ed303f3fd085c10e3992",
@@ -18192,15 +18192,6 @@
         "variant": "CreditsWidgetViewType=CREDIT_CLOSED_1, WidgetSize=M"
     },
     {
-        "key": "d7d61fec72c8c747d646fad6c5b11a944f29028c",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "CreditWidget",
-        "description": "На счету достаточно денег. Спишем 26 сентября",
-        "platform": "IOS",
-        "variant": "CreditsWidgetViewType=CREDIT_REPAID_2, WidgetSize=S"
-    },
-    {
         "key": "dde7132b0759d9c58b44055c195ef10afce36a4c",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -18208,6 +18199,15 @@
         "description": "На счету достаточно денег. Спишем 26 сентября",
         "platform": "IOS",
         "variant": "CreditsWidgetViewType=CREDIT_REPAID_2, WidgetSize=M"
+    },
+    {
+        "key": "d7d61fec72c8c747d646fad6c5b11a944f29028c",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "CreditWidget",
+        "description": "На счету достаточно денег. Спишем 26 сентября",
+        "platform": "IOS",
+        "variant": "CreditsWidgetViewType=CREDIT_REPAID_2, WidgetSize=S"
     },
     {
         "key": "36fd5e557929e3796dc779a8920e2385a0ac73ad",
@@ -18246,15 +18246,6 @@
         "variant": "CreditsWidgetViewType=CREDIT_NORMAL, WidgetSize=S"
     },
     {
-        "key": "686196152538126a5f7c53123e5940d19c0c4eb2",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "CreditWidget",
-        "description": "Платёж просрочен, а счёт пополнен. Спишем сегодня в полночь",
-        "platform": "IOS",
-        "variant": "CreditsWidgetViewType=CREDIT_REPAID_1, WidgetSize=M"
-    },
-    {
         "key": "9dd5d00efa1e63ad4ba0f4fee123aaf7f451bd0c",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -18262,6 +18253,15 @@
         "description": "Платёж просрочен, а счёт пополнен. Спишем сегодня в полночь",
         "platform": "IOS",
         "variant": "CreditsWidgetViewType=CREDIT_REPAID_1, WidgetSize=S"
+    },
+    {
+        "key": "686196152538126a5f7c53123e5940d19c0c4eb2",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "CreditWidget",
+        "description": "Платёж просрочен, а счёт пополнен. Спишем сегодня в полночь",
+        "platform": "IOS",
+        "variant": "CreditsWidgetViewType=CREDIT_REPAID_1, WidgetSize=M"
     },
     {
         "key": "efcb0b41a067b5dc898b361f69601fd4cf618100",
@@ -18282,15 +18282,6 @@
         "variant": "CreditsWidgetViewType=CREDIT_NEED_REPLENISH_2, WidgetSize=M"
     },
     {
-        "key": "3f813e1b4aa5cbbf48fceb1920f9e49be3aed029",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "CreditWidget",
-        "description": "После конфетти",
-        "platform": "IOS",
-        "variant": "CreditsWidgetViewType=CREDIT_CLOSED_2, WidgetSize=M"
-    },
-    {
         "key": "80f373f5369bc779417d6d6bde3f44043c9bd830",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -18298,6 +18289,15 @@
         "description": "После конфетти",
         "platform": "IOS",
         "variant": "CreditsWidgetViewType=CREDIT_CLOSED_2, WidgetSize=S"
+    },
+    {
+        "key": "3f813e1b4aa5cbbf48fceb1920f9e49be3aed029",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "CreditWidget",
+        "description": "После конфетти",
+        "platform": "IOS",
+        "variant": "CreditsWidgetViewType=CREDIT_CLOSED_2, WidgetSize=M"
     },
     {
         "key": "7a05433fb26d870bf59ddddc076ceb7af0c717b9",
@@ -18389,6 +18389,15 @@
         "platform": "IOS"
     },
     {
+        "key": "bbf8ecabfe9e2f520d3f10d01e4e2f95226bfa5d",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataContent",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=Default, Truncation=Truncated, State=Default, Data=Amount"
+    },
+    {
         "key": "3e70e2cd255b20f5b36731499491a997e3a7f9e1",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -18398,6 +18407,15 @@
         "variant": "Style=Default, Truncation=Truncated, State=Loading, Data=String"
     },
     {
+        "key": "df57081c53eb45328c64ff598b576cecf1568ddc",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataContent",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=Default, Truncation=Multiline, State=Default, Data=String"
+    },
+    {
         "key": "3d78db7702d56f2b6fe73b0e525578625318aabb",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -18405,15 +18423,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Style=Default, Truncation=Truncated, State=Default, Data=String"
-    },
-    {
-        "key": "bbf8ecabfe9e2f520d3f10d01e4e2f95226bfa5d",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataContent",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=Default, Truncation=Truncated, State=Default, Data=Amount"
     },
     {
         "key": "c5f6052af5e120fc27c97169a5cf213208b613bd",
@@ -18432,15 +18441,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Style=Revert, Truncation=Truncated, State=Default, Data=Amount"
-    },
-    {
-        "key": "df57081c53eb45328c64ff598b576cecf1568ddc",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataContent",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=Default, Truncation=Multiline, State=Default, Data=String"
     },
     {
         "key": "7f21d72226014e72dd61196f178c6a5e7781b357",
@@ -18479,6 +18479,15 @@
         "variant": "Style=Revert, Truncation=Multiline, State=Default, Data=Amount"
     },
     {
+        "key": "7917b018fe6e4c5d0d1dbc52c2aec714fd3dfd46",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "DataContent",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Style=Default, Ellipsize=Multiline, State=Default, Data=String"
+    },
+    {
         "key": "8bf2ced94e8a310768cf2f6309356eeafc5d2d0e",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -18495,15 +18504,6 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Style=Default, Ellipsize=Ellipsize, State=Loading, Data=String"
-    },
-    {
-        "key": "7917b018fe6e4c5d0d1dbc52c2aec714fd3dfd46",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "DataContent",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Style=Default, Ellipsize=Multiline, State=Default, Data=String"
     },
     {
         "key": "9e2bad36cb89cfd7eb351771e6f0b210316d2287",
@@ -18569,15 +18569,6 @@
         "variant": "Style=Default, Ellipsize=Multiline, State=Default, Data=Amount"
     },
     {
-        "key": "3a1e11db47c1bb4ab7aa35839213022b96e4ac7d",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "DataListWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Background=True, Error=False"
-    },
-    {
         "key": "c6e638d3591a3cb6334fe00ca67c282cd31cf694",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -18603,6 +18594,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "Background=False, Error=True"
+    },
+    {
+        "key": "3a1e11db47c1bb4ab7aa35839213022b96e4ac7d",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "DataListWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Background=True, Error=False"
     },
     {
         "key": "6c0f408f8e88ad8ce6a2c28aa849a82e9f1f0e9a",
@@ -18930,6 +18930,87 @@
         "platform": "ANDROID"
     },
     {
+        "key": "b460142698c43f407b09482c24071d970bd78fdf",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=1 line, Icon=No Shape, Style=Default, Truncation=Truncated, Horizontal Padding=Both, Indicator=Off"
+    },
+    {
+        "key": "6c592e1dbb6c5da4129941bb44cbe8713d3bdb37",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=1 line, Icon=No Shape, Style=Default, Truncation=Multiline, Horizontal Padding=Both, Indicator=On"
+    },
+    {
+        "key": "327fa8808b66d9fb10bd34ad9127ece7db4abfb8",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=2 lines, Icon=No Shape, Style=Default, Truncation=Truncated, Horizontal Padding=Both, Indicator=Off"
+    },
+    {
+        "key": "05bbe50c23614b60448217f0fe21796872eb8562",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=2 lines, Icon=None, Style=Revert, Truncation=Truncated, Horizontal Padding=Only left, Indicator=Off"
+    },
+    {
+        "key": "9e83b1653628f2703097598d8d7c3d479c7c7722",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=1 line, Icon=None, Style=Default, Truncation=Truncated, Horizontal Padding=Only left, Indicator=Off"
+    },
+    {
+        "key": "65801c76ae302c40c19b771d085825892ae31d7a",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=2 lines, Icon=None, Style=Revert, Truncation=Truncated, Horizontal Padding=Both, Indicator=Off"
+    },
+    {
+        "key": "e61a0debe032fb32ebb6a9125686dbdbcf86d8bd",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=1 line, Icon=Small, Style=Default, Truncation=Truncated, Horizontal Padding=Both, Indicator=Off"
+    },
+    {
+        "key": "5b63057714592c6a8c03f463b34e3c9840ad65ff",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=1 line, Icon=None, Style=Default, Truncation=Multiline, Horizontal Padding=None, Indicator=Off"
+    },
+    {
+        "key": "02f68045810398659855b5d4f26215b2a7614f22",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=2 lines, Icon=Small, Style=Default, Truncation=Truncated, Horizontal Padding=Only left, Indicator=Off"
+    },
+    {
         "key": "1f76e095cce29be9b28c3ce8b8b8b21ff48aaf8b",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -18939,15 +19020,6 @@
         "variant": "Lines=1 line, Icon=Small, Style=Default, Truncation=Multiline, Horizontal Padding=Both, Indicator=Off"
     },
     {
-        "key": "f6e198a7d9c01354dd31759fedce25fcfa4a0160",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=1 line, Icon=Small, Style=Default, Truncation=Truncated, Horizontal Padding=None, Indicator=Off"
-    },
-    {
         "key": "5e82336c32bb22518a0d08899e5241719fe26423",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -18955,6 +19027,42 @@
         "description": "",
         "platform": "IOS",
         "variant": "Lines=2 lines, Icon=Medium, Style=Default, Truncation=Truncated, Horizontal Padding=Both, Indicator=Off"
+    },
+    {
+        "key": "a7d3e76fc3d8183ca59445968d0c434846ee12bd",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=2 lines, Icon=Small, Style=Default, Truncation=Truncated, Horizontal Padding=Both, Indicator=Off"
+    },
+    {
+        "key": "2b626c3d2fdbb7ecf7ec5b0c592f756b2ecd9763",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=2 lines, Icon=Small, Style=Default, Truncation=Multiline, Horizontal Padding=Both, Indicator=Off"
+    },
+    {
+        "key": "21bdb3f0a4d09d69c1dd3101f610c2b36e1d4ef4",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=1 line, Icon=None, Style=Default, Truncation=Truncated, Horizontal Padding=None, Indicator=Off"
+    },
+    {
+        "key": "f6e198a7d9c01354dd31759fedce25fcfa4a0160",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Lines=1 line, Icon=Small, Style=Default, Truncation=Truncated, Horizontal Padding=None, Indicator=Off"
     },
     {
         "key": "8b9ccf1b969c10a24f6c0386eab97a4b2473d66a",
@@ -18973,24 +19081,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Lines=1 line, Icon=None, Style=Default, Truncation=Multiline, Horizontal Padding=Both, Indicator=Off"
-    },
-    {
-        "key": "65801c76ae302c40c19b771d085825892ae31d7a",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=2 lines, Icon=None, Style=Revert, Truncation=Truncated, Horizontal Padding=Both, Indicator=Off"
-    },
-    {
-        "key": "a7d3e76fc3d8183ca59445968d0c434846ee12bd",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=2 lines, Icon=Small, Style=Default, Truncation=Truncated, Horizontal Padding=Both, Indicator=Off"
     },
     {
         "key": "6b064e21fa0634a28ca0f366dd9e65ffd1ccec72",
@@ -19056,24 +19146,6 @@
         "variant": "Lines=1 line, Icon=Small, Style=Default, Truncation=Truncated, Horizontal Padding=Only left, Indicator=Off"
     },
     {
-        "key": "e61a0debe032fb32ebb6a9125686dbdbcf86d8bd",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=1 line, Icon=Small, Style=Default, Truncation=Truncated, Horizontal Padding=Both, Indicator=Off"
-    },
-    {
-        "key": "02f68045810398659855b5d4f26215b2a7614f22",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=2 lines, Icon=Small, Style=Default, Truncation=Truncated, Horizontal Padding=Only left, Indicator=Off"
-    },
-    {
         "key": "3c39bf3fe94ff734b82a8ea4ebeea42e8c0db5bb",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -19119,33 +19191,6 @@
         "variant": "Lines=1 line, Icon=No Shape, Style=Default, Truncation=Truncated, Horizontal Padding=Both, Indicator=On"
     },
     {
-        "key": "b460142698c43f407b09482c24071d970bd78fdf",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=1 line, Icon=No Shape, Style=Default, Truncation=Truncated, Horizontal Padding=Both, Indicator=Off"
-    },
-    {
-        "key": "21bdb3f0a4d09d69c1dd3101f610c2b36e1d4ef4",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=1 line, Icon=None, Style=Default, Truncation=Truncated, Horizontal Padding=None, Indicator=Off"
-    },
-    {
-        "key": "9e83b1653628f2703097598d8d7c3d479c7c7722",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=1 line, Icon=None, Style=Default, Truncation=Truncated, Horizontal Padding=Only left, Indicator=Off"
-    },
-    {
         "key": "fc085641f050fe7800b28f92327ffff938a192a1",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -19153,15 +19198,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Lines=2 lines, Icon=No Shape, Style=Default, Truncation=Multiline, Horizontal Padding=Both, Indicator=Off"
-    },
-    {
-        "key": "2b626c3d2fdbb7ecf7ec5b0c592f756b2ecd9763",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=2 lines, Icon=Small, Style=Default, Truncation=Multiline, Horizontal Padding=Both, Indicator=Off"
     },
     {
         "key": "5367445efd928b2ef2c05afa2fc08b5c0f385fbf",
@@ -19218,15 +19254,6 @@
         "variant": "Lines=2 lines, Icon=No Shape, Style=Default, Truncation=Truncated, Horizontal Padding=Only left, Indicator=Off"
     },
     {
-        "key": "05bbe50c23614b60448217f0fe21796872eb8562",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=2 lines, Icon=None, Style=Revert, Truncation=Truncated, Horizontal Padding=Only left, Indicator=Off"
-    },
-    {
         "key": "cacc7f093b9355ef7e0ce15971bb1ba564aa06f6",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -19234,15 +19261,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Lines=1 line, Icon=No Shape, Style=Default, Truncation=Truncated, Horizontal Padding=Only left, Indicator=Off"
-    },
-    {
-        "key": "5b63057714592c6a8c03f463b34e3c9840ad65ff",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=1 line, Icon=None, Style=Default, Truncation=Multiline, Horizontal Padding=None, Indicator=Off"
     },
     {
         "key": "6a5494dadb725238d2e4f93921c8c7e187202498",
@@ -19315,15 +19333,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Lines=2 lines, Icon=None, Style=Default, Truncation=Truncated, Horizontal Padding=Both, Indicator=Off"
-    },
-    {
-        "key": "327fa8808b66d9fb10bd34ad9127ece7db4abfb8",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=2 lines, Icon=No Shape, Style=Default, Truncation=Truncated, Horizontal Padding=Both, Indicator=Off"
     },
     {
         "key": "fdea1e31948ed73d1e54412917e90f35fd69cdfc",
@@ -19486,15 +19495,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Lines=3 lines, Icon=No Shape, Style=Default, Truncation=Truncated, Horizontal Padding=Both, Indicator=On"
-    },
-    {
-        "key": "6c592e1dbb6c5da4129941bb44cbe8713d3bdb37",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Lines=1 line, Icon=No Shape, Style=Default, Truncation=Multiline, Horizontal Padding=Both, Indicator=On"
     },
     {
         "key": "62e190ee69c848d6e6e8525b9d1562b5b5338e2e",
@@ -20145,6 +20145,42 @@
         "variant": "Lines=1 line, Icon=No Shape, Style=Default, Truncation=Multiline, Horizontal Padding=Both, Indicator=Off"
     },
     {
+        "key": "12b8eff3795c8875731920ebe5e5eacec23b4918",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Lines=2 lines, Icon=Small, Style=Default, Ellipsize=Ellipsize, Horizontal Padding=Only left, Indicator=Off"
+    },
+    {
+        "key": "0c9c12de631ca9b9a4e3b9ceeb8702269dd836e7",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Lines=2 lines, Icon=Small, Style=Default, Ellipsize=Ellipsize, Horizontal Padding=Both, Indicator=Off"
+    },
+    {
+        "key": "039c3d9e163ed48349e32671bbcc5e7a79bf6276",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Lines=2 lines, Icon=None, Style=Default, Ellipsize=Multiline, Horizontal Padding=Both, Indicator=Off"
+    },
+    {
+        "key": "7de383fd91f9da81e4b90d9d580f50e83c7c8be3",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Lines=2 lines, Icon=Small, Style=Default, Ellipsize=Multiline, Horizontal Padding=Both, Indicator=Off"
+    },
+    {
         "key": "e8a9ce20dccd613fcf77ced4ffdf4e85db5cb41d",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -20172,15 +20208,6 @@
         "variant": "Lines=1 line, Icon=Small, Style=Default, Ellipsize=Ellipsize, Horizontal Padding=Both, Indicator=Off"
     },
     {
-        "key": "0c9c12de631ca9b9a4e3b9ceeb8702269dd836e7",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Lines=2 lines, Icon=Small, Style=Default, Ellipsize=Ellipsize, Horizontal Padding=Both, Indicator=Off"
-    },
-    {
         "key": "c0e2ee19ccac1433e1b3c7d56e9613dee050dad9",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -20197,15 +20224,6 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Lines=3 lines, Icon=Small, Style=Default, Ellipsize=Multiline, Horizontal Padding=Both, Indicator=Off"
-    },
-    {
-        "key": "12b8eff3795c8875731920ebe5e5eacec23b4918",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Lines=2 lines, Icon=Small, Style=Default, Ellipsize=Ellipsize, Horizontal Padding=Only left, Indicator=Off"
     },
     {
         "key": "6f411742fed74b81b45499992742e25ef184e074",
@@ -20233,6 +20251,15 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Lines=1 line, Icon=None, Style=Default, Ellipsize=Ellipsize, Horizontal Padding=Both, Indicator=Off"
+    },
+    {
+        "key": "5f61af88948f4e50dc097e0278908f1f5f975204",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "DataView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Lines=1 line, Icon=None, Style=Default, Ellipsize=Ellipsize, Horizontal Padding=Only left, Indicator=Off"
     },
     {
         "key": "468a6030b54b17871f0de481a430b9ba2d42c1f0",
@@ -20431,15 +20458,6 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Lines=2 lines, Icon=Medium, Style=Default, Ellipsize=Ellipsize, Horizontal Padding=Only left, Indicator=On"
-    },
-    {
-        "key": "5f61af88948f4e50dc097e0278908f1f5f975204",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Lines=1 line, Icon=None, Style=Default, Ellipsize=Ellipsize, Horizontal Padding=Only left, Indicator=Off"
     },
     {
         "key": "5ba99350f5cd97cf5943e59cd811d9d2d1420c9b",
@@ -20946,15 +20964,6 @@
         "variant": "Lines=2 lines, Icon=Small, Style=Default, Ellipsize=Multiline, Horizontal Padding=None, Indicator=On"
     },
     {
-        "key": "7de383fd91f9da81e4b90d9d580f50e83c7c8be3",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Lines=2 lines, Icon=Small, Style=Default, Ellipsize=Multiline, Horizontal Padding=Both, Indicator=Off"
-    },
-    {
         "key": "7d8017d2150ef6f90414fc69cc8445f0041da9b0",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -21187,15 +21196,6 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Lines=3 lines, Icon=No Shape, Style=Default, Ellipsize=Ellipsize, Horizontal Padding=Only right, Indicator=On"
-    },
-    {
-        "key": "039c3d9e163ed48349e32671bbcc5e7a79bf6276",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "DataView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Lines=2 lines, Icon=None, Style=Default, Ellipsize=Multiline, Horizontal Padding=Both, Indicator=Off"
     },
     {
         "key": "020b35c30a94f9e3719e418add210d7280c35036",
@@ -21873,22 +21873,13 @@
         "platform": "ANDROID"
     },
     {
-        "key": "6d36f8e71f6db52a0c1c135057242c52d7895560",
+        "key": "71e959fcb6699ff029a6ea80a17da0a2d5ca1864",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
         "name": "DeliveryWidget",
         "description": "",
         "platform": "IOS",
-        "variant": "State=Step2"
-    },
-    {
-        "key": "01889bfb8300a8a610584e7c6d4d16fbc6b1eb00",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "DeliveryWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "State=Step1"
+        "variant": "State=Step3"
     },
     {
         "key": "44339e9d447260182f4adccb4be6b99d9d082e22",
@@ -21900,13 +21891,22 @@
         "variant": "State=Error"
     },
     {
-        "key": "71e959fcb6699ff029a6ea80a17da0a2d5ca1864",
+        "key": "01889bfb8300a8a610584e7c6d4d16fbc6b1eb00",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
         "name": "DeliveryWidget",
         "description": "",
         "platform": "IOS",
-        "variant": "State=Step3"
+        "variant": "State=Step1"
+    },
+    {
+        "key": "6d36f8e71f6db52a0c1c135057242c52d7895560",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "DeliveryWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "State=Step2"
     },
     {
         "key": "fb8b80ebf0c7313b2e51353da2ad57b839cb4652",
@@ -23809,6 +23809,15 @@
         "variant": "TYPE=BIC, State=Empty"
     },
     {
+        "key": "7400e82dad215d07847dff8785a067867b96a635",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "DYNAMIC",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Type=MULTIPLE_SELECT"
+    },
+    {
         "key": "e9f1bc97efdcd46965f4138152732266efbe46a5",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -24032,15 +24041,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Type=NOTICE, Color=Warning, Align=Center"
-    },
-    {
-        "key": "7400e82dad215d07847dff8785a067867b96a635",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "DYNAMIC",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Type=MULTIPLE_SELECT"
     },
     {
         "key": "528fc0d482420fb2286449fd94dfeca92c0ef8c6",
@@ -25323,6 +25323,33 @@
         "variant": "State=loading"
     },
     {
+        "key": "7fe7effcb860ffb6520d7b6de24f9de20e61c0db",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "ExchangeRateWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "State=default"
+    },
+    {
+        "key": "60861db41f19fd9ca85809d36e525986677d2804",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "ExchangeRateWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "State=loading"
+    },
+    {
+        "key": "06372d6edae8a527b5834b159488a488d260fc41",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "ExchangeRateWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "State=error"
+    },
+    {
         "key": "729d0e87fd4587ca0d146fab8119ae8eceab623f",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -25725,15 +25752,6 @@
         "platform": "ANDROID"
     },
     {
-        "key": "1c50394131309c43228b69a6a915ea7f16b9e4c7",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "ForecastWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "State=default"
-    },
-    {
         "key": "abfea2a0dde23a34253078320af4e143f6e33c31",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -25750,6 +25768,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "State=error"
+    },
+    {
+        "key": "1c50394131309c43228b69a6a915ea7f16b9e4c7",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "ForecastWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "State=default"
     },
     {
         "key": "f58d5fa2b2a596a371a8d7e6ecc486c1c1111362",
@@ -26062,15 +26089,6 @@
         "platform": "ANDROID"
     },
     {
-        "key": "fd955e66b1f4a4bd361422cd17f4c267ada4dfcb",
-        "file_key": "3teXKVZz4rc0XnFXxrbhAt",
-        "library_name": "iOS :: Native Components",
-        "name": "Home Indicator",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Theme=Dark"
-    },
-    {
         "key": "bc682c9cdc839291e1a826e3dfd3cc16a3e5f094",
         "file_key": "3teXKVZz4rc0XnFXxrbhAt",
         "library_name": "iOS :: Native Components",
@@ -26078,6 +26096,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "Theme=Light"
+    },
+    {
+        "key": "fd955e66b1f4a4bd361422cd17f4c267ada4dfcb",
+        "file_key": "3teXKVZz4rc0XnFXxrbhAt",
+        "library_name": "iOS :: Native Components",
+        "name": "Home Indicator",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Theme=Dark"
     },
     {
         "key": "0da5e529a972e3d473102924251f5de4e587815e",
@@ -26166,15 +26193,6 @@
         "platform": "ANDROID"
     },
     {
-        "key": "f3830413b2f0ddc0c0803ef68105f08bf993caa6",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "HorizontalProgressView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=Default, Horizontal Padding=None"
-    },
-    {
         "key": "79b2b5e2095d181056b971a2267fa248c14004a1",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -26182,6 +26200,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "Style=Default, Horizontal Padding=Both"
+    },
+    {
+        "key": "f3830413b2f0ddc0c0803ef68105f08bf993caa6",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "HorizontalProgressView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=Default, Horizontal Padding=None"
     },
     {
         "key": "edef7082d0b57d281509c4b0c04d3bfb082548cc",
@@ -26398,6 +26425,15 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Style=Revert, Horizontal Padding=Both"
+    },
+    {
+        "key": "0cb76d647f1ec094d066fc25f98d1bb639b8ac21",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "IconElementView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Size=Large, Shape=Super Ellipse, Inner=None, Top Subicon=None, Bottom Subicon=None"
     },
     {
         "key": "2a11e45c2d3503706e72321311bfbc2f0ff5252c",
@@ -27102,15 +27138,6 @@
         "variant": "Size=XSmall, Shape=Rectangle, Inner=Icon, Top Subicon=None, Bottom Subicon=None"
     },
     {
-        "key": "0cb76d647f1ec094d066fc25f98d1bb639b8ac21",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "IconElementView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Size=Large, Shape=Super Ellipse, Inner=None, Top Subicon=None, Bottom Subicon=None"
-    },
-    {
         "key": "0a999393c683aaeadab2fd353f8772c61107b5c0",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -27147,13 +27174,31 @@
         "variant": "Size=Large, Shape=No Shape, Inner=Icon, Top Subicon=None, Bottom Subicon=None"
     },
     {
-        "key": "f97cd5ec0f4b86d94d05460cea89e28543ab3798",
+        "key": "d6af5f7e51aa122e912f1bb50efd3be38558fd80",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
         "name": "IconView",
         "description": "",
         "platform": "IOS",
-        "variant": "Size=Small, Shape=No Shape, Inner=Icon, Top Subicon=None, Bottom Subicon=None"
+        "variant": "Size=Small, Shape=Super Ellipse, Inner=Icon, Top Subicon=Icon, Bottom Subicon=None"
+    },
+    {
+        "key": "498e3e619a26fb8538bd70bcba0feda03f8bb689",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "IconView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=XSmall, Shape=Super Ellipse, Inner=Icon, Top Subicon=None, Bottom Subicon=None"
+    },
+    {
+        "key": "d5a819a710962183f3a9b6dee41a50cc76ac2856",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "IconView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=Medium, Shape=Round, Inner=None, Top Subicon=None, Bottom Subicon=None"
     },
     {
         "key": "06261e672a5b6262b930f00d5fd3db4af823e931",
@@ -27163,6 +27208,42 @@
         "description": "",
         "platform": "IOS",
         "variant": "Size=Medium, Shape=Round, Inner=Icon, Top Subicon=None, Bottom Subicon=None"
+    },
+    {
+        "key": "f97cd5ec0f4b86d94d05460cea89e28543ab3798",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "IconView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=Small, Shape=No Shape, Inner=Icon, Top Subicon=None, Bottom Subicon=None"
+    },
+    {
+        "key": "7b5e8d75f304041bf1551cff3046dad8568c07ad",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "IconView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=Small, Shape=Super Ellipse, Inner=None, Top Subicon=None, Bottom Subicon=None"
+    },
+    {
+        "key": "5c3e2b2ec3765046fea442d638d652bc3dc1e853",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "IconView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=Small, Shape=Super Ellipse, Inner=Icon, Top Subicon=None, Bottom Subicon=None"
+    },
+    {
+        "key": "326e5fd9678d18f6f438c6c2713dab9db482c3bd",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "IconView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=Small, Shape=Round, Inner=None, Top Subicon=None, Bottom Subicon=None"
     },
     {
         "key": "9a434297cf429bf1ae28cbe24711352fac7aaef5",
@@ -27201,24 +27282,6 @@
         "variant": "Size=Small, Shape=Rectangle, Inner=None, Top Subicon=None, Bottom Subicon=None"
     },
     {
-        "key": "5c3e2b2ec3765046fea442d638d652bc3dc1e853",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "IconView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=Small, Shape=Super Ellipse, Inner=Icon, Top Subicon=None, Bottom Subicon=None"
-    },
-    {
-        "key": "498e3e619a26fb8538bd70bcba0feda03f8bb689",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "IconView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=XSmall, Shape=Super Ellipse, Inner=Icon, Top Subicon=None, Bottom Subicon=None"
-    },
-    {
         "key": "aae1011c6d3896b63522ce79eae9a42791a37d2a",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -27226,15 +27289,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Size=Small, Shape=Super Ellipse, Inner=Icon, Top Subicon=Indicator, Bottom Subicon=None"
-    },
-    {
-        "key": "7b5e8d75f304041bf1551cff3046dad8568c07ad",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "IconView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=Small, Shape=Super Ellipse, Inner=None, Top Subicon=None, Bottom Subicon=None"
     },
     {
         "key": "17556548c70ce702d547ba4333278c0b9fc5da91",
@@ -27372,15 +27426,6 @@
         "variant": "Size=Large, Shape=Super Ellipse, Inner=Icon, Top Subicon=None, Bottom Subicon=Icon"
     },
     {
-        "key": "d5a819a710962183f3a9b6dee41a50cc76ac2856",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "IconView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=Medium, Shape=Round, Inner=None, Top Subicon=None, Bottom Subicon=None"
-    },
-    {
         "key": "63f36bdea505792967d6f30b6efd141c490a7db4",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -27397,15 +27442,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Size=Small, Shape=Super Ellipse, Inner=Initials, Top Subicon=None, Bottom Subicon=Icon"
-    },
-    {
-        "key": "326e5fd9678d18f6f438c6c2713dab9db482c3bd",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "IconView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=Small, Shape=Round, Inner=None, Top Subicon=None, Bottom Subicon=None"
     },
     {
         "key": "ec946042d606214663595c305f4d91cb2c2dda8f",
@@ -28297,15 +28333,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Size=Medium, Shape=Super Ellipse, Inner=Spinner, Top Subicon=None, Bottom Subicon=None"
-    },
-    {
-        "key": "d6af5f7e51aa122e912f1bb50efd3be38558fd80",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "IconView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=Small, Shape=Super Ellipse, Inner=Icon, Top Subicon=Icon, Bottom Subicon=None"
     },
     {
         "key": "d69d8a87f8ea7981965d832f492f938a497de21c",
@@ -29666,15 +29693,6 @@
         "variant": "Preset=Promo"
     },
     {
-        "key": "d37658a807d0d3148868d83ef6de5a3d5feda421",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "IndicatorView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=Medium, Stroke=On, Truncation=Truncated, ContentColor=Accent"
-    },
-    {
         "key": "4374a332c5f906ea88540e06b3b80661cc81349d",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -29682,6 +29700,24 @@
         "description": "",
         "platform": "IOS",
         "variant": "Size=Medium, Stroke=Off, Truncation=Truncated, ContentColor=Accent"
+    },
+    {
+        "key": "265db9f694d4ef85987d15f06dcfebc02a3a4eb8",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "IndicatorView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=Large, Stroke=Off, Truncation=Full, ContentColor=Default Gray"
+    },
+    {
+        "key": "a95d0ef3420b3cba240695db01a4ca42a09c8f4f",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "IndicatorView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=Large, Stroke=Off, Truncation=Full, ContentColor=Accent"
     },
     {
         "key": "92c1f79598fc6a2817e4ddffbd6d1a84d89133c8",
@@ -29693,15 +29729,6 @@
         "variant": "Size=Large, Stroke=Off, Truncation=Truncated, ContentColor=Accent"
     },
     {
-        "key": "68d87113b306e38376094f3ab946882657c0a40e",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "IndicatorView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=XLarge, Stroke=Off, Truncation=Truncated, ContentColor=Accent"
-    },
-    {
         "key": "9dcaa436428376e6299bf3999b2f378c7a90c7a8",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -29709,6 +29736,33 @@
         "description": "",
         "platform": "IOS",
         "variant": "Size=Small, Stroke=Off, Truncation=Truncated, ContentColor=Accent"
+    },
+    {
+        "key": "ebbbd86613f316d11d14a95ee485b1cd7428e633",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "IndicatorView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=Medium, Stroke=Off, Truncation=Full, ContentColor=Default White"
+    },
+    {
+        "key": "d37658a807d0d3148868d83ef6de5a3d5feda421",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "IndicatorView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=Medium, Stroke=On, Truncation=Truncated, ContentColor=Accent"
+    },
+    {
+        "key": "68d87113b306e38376094f3ab946882657c0a40e",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "IndicatorView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Size=XLarge, Stroke=Off, Truncation=Truncated, ContentColor=Accent"
     },
     {
         "key": "20cfcb08e9acf5f1579f8df82b4cdd0bd7e61623",
@@ -29900,15 +29954,6 @@
         "variant": "Size=Medium, Stroke=On, Truncation=Truncated, ContentColor=Default White"
     },
     {
-        "key": "ebbbd86613f316d11d14a95ee485b1cd7428e633",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "IndicatorView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=Medium, Stroke=Off, Truncation=Full, ContentColor=Default White"
-    },
-    {
         "key": "d93c645333c7dcc4a8835902039f09900104ee85",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -29934,15 +29979,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Size=Large, Stroke=On, Truncation=Truncated, ContentColor=Default White"
-    },
-    {
-        "key": "a95d0ef3420b3cba240695db01a4ca42a09c8f4f",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "IndicatorView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=Large, Stroke=Off, Truncation=Full, ContentColor=Accent"
     },
     {
         "key": "a394b0f2baba20c4a05cdf2cef1b68e9df9de848",
@@ -30033,15 +30069,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Size=Medium, Stroke=On, Truncation=Full, ContentColor=Default Gray"
-    },
-    {
-        "key": "265db9f694d4ef85987d15f06dcfebc02a3a4eb8",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "IndicatorView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Size=Large, Stroke=Off, Truncation=Full, ContentColor=Default Gray"
     },
     {
         "key": "53ff564be5cd6040b5888037a683f2fe06a8c7d4",
@@ -30422,24 +30449,6 @@
         "variant": "Size=Small, Stroke=On, Truncation=Truncated, Preset=Default White"
     },
     {
-        "key": "1165ed9351904b47ed14f4edb690e8f31905c71f",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "IPOSCollectionWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Type=Loading, Tag=On, Bottom=On"
-    },
-    {
-        "key": "39780a0b3d7e97a9834c4b1e7c1f067114649397",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "IPOSCollectionWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Type=Default, Tag=On, Bottom=On"
-    },
-    {
         "key": "fb2d15080899994be7b4447ad2d464b27f847296",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -30449,13 +30458,31 @@
         "variant": "Type=Loading, Tag=Off, Bottom=Off"
     },
     {
-        "key": "581adc3c26e7b705397f4dc41ae97df3a7f32cf7",
+        "key": "9472460aebdc14a8663b36d6054c249dbca2ba9a",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
         "name": "IPOSCollectionWidget",
         "description": "",
         "platform": "IOS",
-        "variant": "Type=Default, Tag=Off, Bottom=Off"
+        "variant": "Type=Default, Tag=On, Bottom=Off"
+    },
+    {
+        "key": "77b16e432f4adef379b5f8484571441766334019",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "IPOSCollectionWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Type=Default, Tag=Off, Bottom=On"
+    },
+    {
+        "key": "39780a0b3d7e97a9834c4b1e7c1f067114649397",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "IPOSCollectionWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Type=Default, Tag=On, Bottom=On"
     },
     {
         "key": "321898c11ee6ef91ec40b9e949c54a347fb5ca0b",
@@ -30476,22 +30503,22 @@
         "variant": "Type=Error, Tag=On, Bottom=On"
     },
     {
-        "key": "9472460aebdc14a8663b36d6054c249dbca2ba9a",
+        "key": "1165ed9351904b47ed14f4edb690e8f31905c71f",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
         "name": "IPOSCollectionWidget",
         "description": "",
         "platform": "IOS",
-        "variant": "Type=Default, Tag=On, Bottom=Off"
+        "variant": "Type=Loading, Tag=On, Bottom=On"
     },
     {
-        "key": "77b16e432f4adef379b5f8484571441766334019",
+        "key": "581adc3c26e7b705397f4dc41ae97df3a7f32cf7",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
         "name": "IPOSCollectionWidget",
         "description": "",
         "platform": "IOS",
-        "variant": "Type=Default, Tag=Off, Bottom=On"
+        "variant": "Type=Default, Tag=Off, Bottom=Off"
     },
     {
         "key": "fd37a6590de624cba2c1878b89bc26b785163ae4",
@@ -31034,6 +31061,24 @@
         "platform": "ANDROID"
     },
     {
+        "key": "e81c8d498c72769f3702f62e70108a9587e7b815",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "MainButton",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=Primary, State=Enabled, Morphology=Label, Size=Large"
+    },
+    {
+        "key": "aba49b8b49ebb05765326bc6d74f30b04a40a9d5",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "MainButton",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=Secondary, State=Enabled, Morphology=Label, Size=Medium"
+    },
+    {
         "key": "323fcb5f5fffe7c90ece8bda950be0ebc86ac855",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -31041,6 +31086,33 @@
         "description": "",
         "platform": "IOS",
         "variant": "Style=Secondary, State=Enabled, Morphology=Label, Size=Large"
+    },
+    {
+        "key": "a5acf492d555159c9951f00825571b7fb235c394",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "MainButton",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=Primary, State=Disabled, Morphology=Label, Size=Large"
+    },
+    {
+        "key": "3f460dff5193450e5c22dd8539450b187c2cae1c",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "MainButton",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=Secondary, State=Enabled, Morphology=Icon Only, Size=Large"
+    },
+    {
+        "key": "83f3d82f0174474e56ec726a7e13da6dd8202176",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "MainButton",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=Primary, State=Enabled, Morphology=Icon Only, Size=Large"
     },
     {
         "key": "43fdde16963ba20a9cacfb2dbbaeb33b354650a0",
@@ -31070,15 +31142,6 @@
         "variant": "Style=Primary, State=Selected, Morphology=L Icon + Label, Size=Small"
     },
     {
-        "key": "e81c8d498c72769f3702f62e70108a9587e7b815",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "MainButton",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=Primary, State=Enabled, Morphology=Label, Size=Large"
-    },
-    {
         "key": "be498b538a66b95d80c8385860fe115b3d9c4e1d",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -31086,15 +31149,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Style=Custom, State=Enabled, Morphology=Label, Size=Medium"
-    },
-    {
-        "key": "a5acf492d555159c9951f00825571b7fb235c394",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "MainButton",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=Primary, State=Disabled, Morphology=Label, Size=Large"
     },
     {
         "key": "777817ab296826e16fba1e5844b904778d938c2b",
@@ -31142,15 +31196,6 @@
         "variant": "Style=Primary, State=Enabled, Morphology=Label, Size=Small"
     },
     {
-        "key": "aba49b8b49ebb05765326bc6d74f30b04a40a9d5",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "MainButton",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=Secondary, State=Enabled, Morphology=Label, Size=Medium"
-    },
-    {
         "key": "fb228e3b3d437a31c90b158674f908b4f5ae7fcf",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -31167,15 +31212,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Style=Primary, State=Loading, Morphology=Label, Size=Large"
-    },
-    {
-        "key": "3f460dff5193450e5c22dd8539450b187c2cae1c",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "MainButton",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=Secondary, State=Enabled, Morphology=Icon Only, Size=Large"
     },
     {
         "key": "cad44a0c3bfb29bb8f702a5922115c9e15e9bc20",
@@ -32238,15 +32274,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Style=Custom, State=Loading, Morphology=Label, Size=Medium"
-    },
-    {
-        "key": "83f3d82f0174474e56ec726a7e13da6dd8202176",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "MainButton",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=Primary, State=Enabled, Morphology=Icon Only, Size=Large"
     },
     {
         "key": "8012d4ad06670403986a3f3b524b381a913fe277",
@@ -35147,13 +35174,22 @@
         "variant": "Service=Премиум, ManagerAttached=On"
     },
     {
-        "key": "5bc8287cfa05c5ca95796f1643aa01d6280695bd",
+        "key": "7e249113d7a8fffdc43ddd13fdfc2d318c92ae94",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
         "name": "ManagerInfoWidget",
         "description": "",
         "platform": "IOS",
-        "variant": "Service=Премиум, ManagerAttached=Error"
+        "variant": "Service=А-Клуб, ManagerAttached=Off (basic)"
+    },
+    {
+        "key": "75bea0d6a31be22a4d3b58faed1ec2030514a91f",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "ManagerInfoWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Service=Премиум, ManagerAttached=Off"
     },
     {
         "key": "2ba68d6bcde197e28217858efb485cd93f576602",
@@ -35192,22 +35228,13 @@
         "variant": "Service=А-Клуб, ManagerAttached=On"
     },
     {
-        "key": "7e249113d7a8fffdc43ddd13fdfc2d318c92ae94",
+        "key": "5bc8287cfa05c5ca95796f1643aa01d6280695bd",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
         "name": "ManagerInfoWidget",
         "description": "",
         "platform": "IOS",
-        "variant": "Service=А-Клуб, ManagerAttached=Off (basic)"
-    },
-    {
-        "key": "75bea0d6a31be22a4d3b58faed1ec2030514a91f",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "ManagerInfoWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Service=Премиум, ManagerAttached=Off"
+        "variant": "Service=Премиум, ManagerAttached=Error"
     },
     {
         "key": "5b8c68d72deebb059b72d1f6c1ddcf453b331365",
@@ -36173,6 +36200,33 @@
         "variant": "Preset=ListWrap"
     },
     {
+        "key": "1bdc1ffe016e3502831546935f77a02fe5b6689c",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "Markdown",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Preset=Paragraph"
+    },
+    {
+        "key": "496388e1ce48ea638fec068a3b0fa23dd3e77bf9",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "Markdown",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Preset=H1"
+    },
+    {
+        "key": "2cdeef2a6b8b68282be5e3fe4d6cc7433e285be2",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "Markdown",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Preset=Image 3:2 1200 x 800"
+    },
+    {
         "key": "8d6fff964fd686798f7edbf193e864652fd288e6",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -36198,24 +36252,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Preset=CoverImage"
-    },
-    {
-        "key": "496388e1ce48ea638fec068a3b0fa23dd3e77bf9",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "Markdown",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Preset=H1"
-    },
-    {
-        "key": "1bdc1ffe016e3502831546935f77a02fe5b6689c",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "Markdown",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Preset=Paragraph"
     },
     {
         "key": "81cae3e3e223ed0a39eb74eb306f72c471216ca5",
@@ -36272,15 +36308,6 @@
         "variant": "Preset=CoverVideo"
     },
     {
-        "key": "2cdeef2a6b8b68282be5e3fe4d6cc7433e285be2",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "Markdown",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Preset=Image 3:2 1200 x 800"
-    },
-    {
         "key": "1f0de7b9b89a3401865232eff674361680381640",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -36326,13 +36353,22 @@
         "variant": "Preset=Image 16:9 1280×960"
     },
     {
-        "key": "a17ea0a29864293464474263bf45bbb9b1f689b8",
+        "key": "efb786578780f8194a77f9fb183ecbecc7da7d85",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
         "name": "Markdown",
         "description": "",
         "platform": "ANDROID",
-        "variant": "Element=ListWrap"
+        "variant": "Element=CoverImage"
+    },
+    {
+        "key": "c6f17a9eca2cf4c98c64af65117029cb9e5ca2a3",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "Markdown",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Element=H2"
     },
     {
         "key": "8ae1d5c1c45ecd184d652caeee50a42fd57800c9",
@@ -36353,22 +36389,13 @@
         "variant": "Element=H1"
     },
     {
-        "key": "cc47ecf57a6237743d8a1c3c12db9be99ee63bce",
+        "key": "a17ea0a29864293464474263bf45bbb9b1f689b8",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
         "name": "Markdown",
         "description": "",
         "platform": "ANDROID",
-        "variant": "Element=Image 16:9 1280×960"
-    },
-    {
-        "key": "efb786578780f8194a77f9fb183ecbecc7da7d85",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "Markdown",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Element=CoverImage"
+        "variant": "Element=ListWrap"
     },
     {
         "key": "ef7a300374f41f916a3715a67b6db9039bee19ed",
@@ -36378,6 +36405,15 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Element=Image 3:2 1200 x 800"
+    },
+    {
+        "key": "cc47ecf57a6237743d8a1c3c12db9be99ee63bce",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "Markdown",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Element=Image 16:9 1280×960"
     },
     {
         "key": "56ed5b9514bf79c4c73e7414f77224474c53c79a",
@@ -36405,15 +36441,6 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Element=H4"
-    },
-    {
-        "key": "c6f17a9eca2cf4c98c64af65117029cb9e5ca2a3",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "Markdown",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Element=H2"
     },
     {
         "key": "9c679bae601596f52fbfe5f0d26a54b794773e23",
@@ -37246,6 +37273,15 @@
         "variant": "Property 1=Controls (dark)"
     },
     {
+        "key": "047fb112afc2f0109c22b4344a534ad52339d2b9",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "NavigationBar / Default",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Type=TitleSubtitle, Actions=1 Icon, Theme=Dynamic, Usecase=PageHeader"
+    },
+    {
         "key": "df0d124aa870f384c76dd359fa0984467742f693",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -37253,24 +37289,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Type=Title, Actions=Empty, Theme=Dynamic, Usecase=PageHeader"
-    },
-    {
-        "key": "92e4dbf5b7e96e256cb9330ccccd013239efdd02",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "NavigationBar / Default",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Type=TitleSubtitle, Actions=Empty, Theme=Dynamic, Usecase=PageHeader"
-    },
-    {
-        "key": "b8ce9625fe305bdbd49540371cb0c8902fa59e53",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "NavigationBar / Default",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Type=Empty, Actions=1 Icon, Theme=Dynamic, Usecase=PageHeader"
     },
     {
         "key": "61a0cfdcef9e67965579b7013235683e45c37325",
@@ -37291,13 +37309,22 @@
         "variant": "Type=Empty, Actions=Empty, Theme=Dynamic, Usecase=PageHeader"
     },
     {
-        "key": "047fb112afc2f0109c22b4344a534ad52339d2b9",
+        "key": "92e4dbf5b7e96e256cb9330ccccd013239efdd02",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
         "name": "NavigationBar / Default",
         "description": "",
         "platform": "IOS",
-        "variant": "Type=TitleSubtitle, Actions=1 Icon, Theme=Dynamic, Usecase=PageHeader"
+        "variant": "Type=TitleSubtitle, Actions=Empty, Theme=Dynamic, Usecase=PageHeader"
+    },
+    {
+        "key": "b8ce9625fe305bdbd49540371cb0c8902fa59e53",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "NavigationBar / Default",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Type=Empty, Actions=1 Icon, Theme=Dynamic, Usecase=PageHeader"
     },
     {
         "key": "265d457e086640ecd6193f562adb6739e1ff593e",
@@ -39144,15 +39171,6 @@
         "platform": "ANDROID"
     },
     {
-        "key": "2d572e44b184fc945b31bd7a86459f83dea0fe62",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "OnboardingWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "State=default"
-    },
-    {
         "key": "b1ebd2531fe027f90768926ca447455f7eda18c4",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -39169,6 +39187,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "State=error"
+    },
+    {
+        "key": "2d572e44b184fc945b31bd7a86459f83dea0fe62",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "OnboardingWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "State=default"
     },
     {
         "key": "d95f7e07c98091a79e111ff8a03748d499e6c92b",
@@ -40856,15 +40883,6 @@
         "variant": "Vertical Padding=Large, Horizontal Padding=Both, Style=Default, Percent=Off, Status=Off, Icon=On"
     },
     {
-        "key": "cdae458ffbffc30ec7fd5f425bece9b40ac9d013",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "ProductView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Vertical Padding=Large, Horizontal Padding=Both, Style=Default, Percent=Off, Status=Off, Icon=Off"
-    },
-    {
         "key": "5a0e4800ce810fdf1da2429884b7574fc411cca3",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -40872,6 +40890,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "Vertical Padding=Large, Horizontal Padding=Both, Style=Subline, Percent=On, Status=Off, Icon=Off"
+    },
+    {
+        "key": "cdae458ffbffc30ec7fd5f425bece9b40ac9d013",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "ProductView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Vertical Padding=Large, Horizontal Padding=Both, Style=Default, Percent=Off, Status=Off, Icon=Off"
     },
     {
         "key": "5118dfb6a2d784b5926d20a34d19f28fe22cef89",
@@ -41304,6 +41331,33 @@
         "variant": "Style=Inside stroke"
     },
     {
+        "key": "f3f528fe00f93c6b5feb73ed4e598d20ee97f942",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "ProgressBarView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=Default, Progress=30%, Skeleton=No"
+    },
+    {
+        "key": "ed339ef377f01e92e4fd1b0063dbc652c85367aa",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "ProgressBarView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=Default, Progress=10%, Skeleton=No"
+    },
+    {
+        "key": "f78be5903f39161df7101dd2c5aee68ee8811726",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "ProgressBarView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=Default, Progress=40%, Skeleton=No"
+    },
+    {
         "key": "10159813d37862b7f223f1588246fbc2ffedec70",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -41349,15 +41403,6 @@
         "variant": "Style=Default, Progress=100%, Skeleton=No"
     },
     {
-        "key": "ed339ef377f01e92e4fd1b0063dbc652c85367aa",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "ProgressBarView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=Default, Progress=10%, Skeleton=No"
-    },
-    {
         "key": "20548ef0303aa702e858b50b2577df0e0711181b",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -41365,15 +41410,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Style=Default, Progress=0%, Skeleton=No"
-    },
-    {
-        "key": "f3f528fe00f93c6b5feb73ed4e598d20ee97f942",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "ProgressBarView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=Default, Progress=30%, Skeleton=No"
     },
     {
         "key": "8f77400c6422b4a10ba7fe4efeeca307f4b238f6",
@@ -41401,15 +41437,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Style=Stepper, Progress=10  fr, Skeleton=No"
-    },
-    {
-        "key": "f78be5903f39161df7101dd2c5aee68ee8811726",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "ProgressBarView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=Default, Progress=40%, Skeleton=No"
     },
     {
         "key": "dd55f7c476c3d66d5797a9f7d45bb6bce5531c2a",
@@ -41942,15 +41969,6 @@
         "platform": "IOS"
     },
     {
-        "key": "4b702876f2df9656e684dcafeb123714dbf16d19",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "RadioButton",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "State=On, Enabled=Enabled"
-    },
-    {
         "key": "d76d2709792ed49a974e3f17bd216a6c4338089a",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -41958,6 +41976,15 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "State=Off, Enabled=Enabled"
+    },
+    {
+        "key": "4b702876f2df9656e684dcafeb123714dbf16d19",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "RadioButton",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "State=On, Enabled=Enabled"
     },
     {
         "key": "8c69fce5a6412c5bd6bc56b59aacead9747308ff",
@@ -43533,6 +43560,15 @@
         "variant": "Type=Referral, Timer=off"
     },
     {
+        "key": "747ed5a973ba15bb0c08e831d6f5d3897f7eb57c",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "ReferralWidget",
+        "description": "ReferalWidget",
+        "platform": "IOS",
+        "variant": "Type=Referral, Timer=on"
+    },
+    {
         "key": "51cca5788833b3f8143adffa8712403d0bd03fb4",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -43558,15 +43594,6 @@
         "description": "ReferalWidget",
         "platform": "IOS",
         "variant": "Type=Stock, Timer=off"
-    },
-    {
-        "key": "747ed5a973ba15bb0c08e831d6f5d3897f7eb57c",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "ReferralWidget",
-        "description": "ReferalWidget",
-        "platform": "IOS",
-        "variant": "Type=Referral, Timer=on"
     },
     {
         "key": "688dab410a5b138b0cf7130bf6bc9fede96a7ca1",
@@ -43832,13 +43859,22 @@
         "variant": "Presets=SuccessScreen + ActionButtons"
     },
     {
-        "key": "b349d6480cd895198f084f1b9323997e50bf8ff6",
+        "key": "b59f965919ba16cd345c54547998d39f378783fc",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
         "name": "RightIconWrapper",
         "description": "",
         "platform": "IOS",
-        "variant": "Preset=DataView, Gap=Custom, Right Padding=None"
+        "variant": "Preset=WidgetButton, Gap=Custom, Right Padding=None"
+    },
+    {
+        "key": "85adbe8da5285e0f3c294fb4b4ac523fb17ec6f6",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "RightIconWrapper",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Preset=WidgetButton, Gap=Custom, Right Padding=Extended"
     },
     {
         "key": "8a53e4f6dfeae430215b5ec1eaed2ad8d39fec87",
@@ -43850,15 +43886,6 @@
         "variant": "Preset=ProductView, Gap=Default, Right Padding=Extended"
     },
     {
-        "key": "b59f965919ba16cd345c54547998d39f378783fc",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "RightIconWrapper",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Preset=WidgetButton, Gap=Custom, Right Padding=None"
-    },
-    {
         "key": "a5f1027c68b07bfeb9449ce314d172eb8560e4c8",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -43868,6 +43895,15 @@
         "variant": "Preset=DataView, Gap=Default, Right Padding=Extended"
     },
     {
+        "key": "b349d6480cd895198f084f1b9323997e50bf8ff6",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "RightIconWrapper",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Preset=DataView, Gap=Custom, Right Padding=None"
+    },
+    {
         "key": "b39d973a896b1a1a9344cdf5a00cafae6d65398b",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -43875,15 +43911,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Preset=TextView, Gap=Default, Right Padding=Extended"
-    },
-    {
-        "key": "85adbe8da5285e0f3c294fb4b4ac523fb17ec6f6",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "RightIconWrapper",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Preset=WidgetButton, Gap=Custom, Right Padding=Extended"
     },
     {
         "key": "faaedb674cd53f90d3e3b3db9d74fb1814bbd39b",
@@ -44905,6 +44932,15 @@
         "variant": "State=Inactive"
     },
     {
+        "key": "219aa0fe64ad3c1d74b02c7fc7cd8c49dd9922c8",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "SegmentedControl",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Options=3 Options, Selected=Second"
+    },
+    {
         "key": "6b47ba54f4775aa87c41d2f607a240d065898cd3",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -44939,15 +44975,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Options=3 Options, Selected=First"
-    },
-    {
-        "key": "219aa0fe64ad3c1d74b02c7fc7cd8c49dd9922c8",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "SegmentedControl",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Options=3 Options, Selected=Second"
     },
     {
         "key": "e9928d58e52dcd1206693800fd79e1946f709dbc",
@@ -45444,15 +45471,6 @@
         "variant": "Preset=TransactionalView, Control=Checkbox, Control Side=Right, Control Padding=Default"
     },
     {
-        "key": "e22eb250b7233467f12f1b7cd829a0eff7be0f6c",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "SelectionWrapper",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Preset=DataView, Control=Checkbox, Control Side=Right"
-    },
-    {
         "key": "827b10495654bf7d068197c9ed814a679d5b1529",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -45460,6 +45478,15 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Preset=DataView, Control=Radio, Control Side=Right"
+    },
+    {
+        "key": "e22eb250b7233467f12f1b7cd829a0eff7be0f6c",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "SelectionWrapper",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Preset=DataView, Control=Checkbox, Control Side=Right"
     },
     {
         "key": "f75e720bf41367ebbfdccca24610f82c2c6b5f2c",
@@ -45593,15 +45620,6 @@
         "platform": "ANDROID"
     },
     {
-        "key": "77179af11daad13bef1465fff210f408cbe332c5",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "SettingsWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "State=default"
-    },
-    {
         "key": "f99356cdb9788ca936f97c77afc6fff30e748493",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -45618,6 +45636,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "State=error"
+    },
+    {
+        "key": "77179af11daad13bef1465fff210f408cbe332c5",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "SettingsWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "State=default"
     },
     {
         "key": "f878cbeb9697c544d6316054924c1221442b244d",
@@ -46192,6 +46219,15 @@
         "variant": "Size=x1 (8dp) ––– gap xs"
     },
     {
+        "key": "4ce8f3d475e976f576c7cefe484f81aa3ca73fec",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "SquareCollectionWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Presets=Bonus, State=Default"
+    },
+    {
         "key": "e9f9c931200aab2f6c80107893d9c8335cf6d06a",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -46208,15 +46244,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Presets=Premium, State=Default"
-    },
-    {
-        "key": "4ce8f3d475e976f576c7cefe484f81aa3ca73fec",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "SquareCollectionWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Presets=Bonus, State=Default"
     },
     {
         "key": "2dce2dbf05eb1fa9d97c4d45852547bfc5d70208",
@@ -47499,6 +47526,24 @@
         "platform": "ANDROID"
     },
     {
+        "key": "b46da588a005561d46e034a93a184184b279874e",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "Tab Bar",
+        "description": "",
+        "platform": "IOS",
+        "variant": "ActiveTab=1, App=AM"
+    },
+    {
+        "key": "ceb8fb89ae5c573370836cc0fc01a7b6a2fee208",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "Tab Bar",
+        "description": "",
+        "platform": "IOS",
+        "variant": "ActiveTab=1, App=ABM"
+    },
+    {
         "key": "7ebcc459cad0b6ebf3ea72276493a571682010be",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -47533,15 +47578,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "ActiveTab=5, App=AM"
-    },
-    {
-        "key": "b46da588a005561d46e034a93a184184b279874e",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "Tab Bar",
-        "description": "",
-        "platform": "IOS",
-        "variant": "ActiveTab=1, App=AM"
     },
     {
         "key": "72b5f9fd38df405ba940b0e75d1f399aa7593095",
@@ -47614,15 +47650,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "ActiveTab=5, App=ABM"
-    },
-    {
-        "key": "ceb8fb89ae5c573370836cc0fc01a7b6a2fee208",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "Tab Bar",
-        "description": "",
-        "platform": "IOS",
-        "variant": "ActiveTab=1, App=ABM"
     },
     {
         "key": "ccedab62242b81f7ccb7a00fe42cb347a7fa4690",
@@ -49811,15 +49838,6 @@
         "variant": "Style=Incoming, Order=First, Usage=Top, Length=Multiline"
     },
     {
-        "key": "ae6f0ea8f5bc52e2e952f64d0ffee5d9f3ad7294",
-        "file_key": "M0baUF3IV87RjunC3eo9Ha",
-        "library_name": "iOS :: Chat Components",
-        "name": "TextBubbleView",
-        "description": "Сервер: первый баббл в группе",
-        "platform": "IOS",
-        "variant": "Style=Incoming, Order=First, Usage=Default, Length=Multiline"
-    },
-    {
         "key": "e79fe55436e8fed6bbff903618ff25fcd8c72745",
         "file_key": "M0baUF3IV87RjunC3eo9Ha",
         "library_name": "iOS :: Chat Components",
@@ -49827,6 +49845,15 @@
         "description": "Сервер: первый баббл в группе",
         "platform": "IOS",
         "variant": "Style=Incoming, Order=First, Usage=Default, Length=Single line"
+    },
+    {
+        "key": "ae6f0ea8f5bc52e2e952f64d0ffee5d9f3ad7294",
+        "file_key": "M0baUF3IV87RjunC3eo9Ha",
+        "library_name": "iOS :: Chat Components",
+        "name": "TextBubbleView",
+        "description": "Сервер: первый баббл в группе",
+        "platform": "IOS",
+        "variant": "Style=Incoming, Order=First, Usage=Default, Length=Multiline"
     },
     {
         "key": "d132c25d83fd98542a5b738836b7ea5e8c51ebf4",
@@ -49917,6 +49944,15 @@
         "description": "Сервер: промежуточный баббл в группе",
         "platform": "ANDROID",
         "variant": "Style=Incoming, Order=Middle, Usage=Default, Length=Single line"
+    },
+    {
+        "key": "80e8ac94ec06ffe88e14cd84305c38da38345e91",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "TextField",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Type=Text, State=Inactive"
     },
     {
         "key": "fda84e2185b64a1d8b27dcc1f34298588466e968",
@@ -50178,15 +50214,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Type=Multiline Text, State=Typing"
-    },
-    {
-        "key": "80e8ac94ec06ffe88e14cd84305c38da38345e91",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "TextField",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Type=Text, State=Inactive"
     },
     {
         "key": "c80f85440df0d73d41a9552909261aaaf74fed51",
@@ -51065,6 +51092,15 @@
         "platform": "IOS"
     },
     {
+        "key": "d07b766a0ac6ea97a705118996714e39bca4ddd1",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "TextView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=MD / H1, Addons=None, Horizontal Margin=Both"
+    },
+    {
         "key": "32ffd1e9e1cfbe4614a3e341513baf3757ac84a5",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -51072,15 +51108,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Style=MD / H3, Addons=None, Horizontal Margin=Both"
-    },
-    {
-        "key": "078abc6cd032841e1d0ff8be3620be8aafe81be8",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "TextView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=MD / H2, Addons=None, Horizontal Margin=Both"
     },
     {
         "key": "63fcbc248ea2a30da43bfdfc080910ee2e5753f3",
@@ -51092,13 +51119,22 @@
         "variant": "Style=Skeleton, Addons=None, Horizontal Margin=Both"
     },
     {
-        "key": "d07b766a0ac6ea97a705118996714e39bca4ddd1",
+        "key": "078abc6cd032841e1d0ff8be3620be8aafe81be8",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
         "name": "TextView",
         "description": "",
         "platform": "IOS",
-        "variant": "Style=MD / H1, Addons=None, Horizontal Margin=Both"
+        "variant": "Style=MD / H2, Addons=None, Horizontal Margin=Both"
+    },
+    {
+        "key": "74efce71cd5eaab71cd024705e097f2334abceb4",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "TextView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Style=MD / H2, Addons=None, Horizontal Margin=None"
     },
     {
         "key": "172e9fc2fe2a9315da5b3b0587e1a82899f2c4fe",
@@ -51171,15 +51207,6 @@
         "description": "",
         "platform": "IOS",
         "variant": "Style=MD / H4, Addons=None, Horizontal Margin=Only left"
-    },
-    {
-        "key": "74efce71cd5eaab71cd024705e097f2334abceb4",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "TextView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Style=MD / H2, Addons=None, Horizontal Margin=None"
     },
     {
         "key": "630e8fecac645646a7b3b5c8bd47708dae352d4a",
@@ -51290,6 +51317,15 @@
         "variant": "Style=MD / Paragraph, Addons=None, Horizontal Margin=Both"
     },
     {
+        "key": "a7fb21209445e792b17fcf343e1d673d30b2dfee",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "TextView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Style=MD / Quote, Addons=None, Horizontal Margin=Both"
+    },
+    {
         "key": "d97187b498419954f7db9cfce2e408ed855b6e78",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -51315,15 +51351,6 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Style=MD / Quote, Addons=None, Horizontal Margin=None"
-    },
-    {
-        "key": "a7fb21209445e792b17fcf343e1d673d30b2dfee",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "TextView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Style=MD / Quote, Addons=None, Horizontal Margin=Both"
     },
     {
         "key": "874b3aa61c5650a91c22df3cce16581c64e1689d",
@@ -51533,15 +51560,6 @@
         "variant": "Style=MD / H1, Addons=None, Horizontal Margin=Only left"
     },
     {
-        "key": "b4ab9b06e69a7ffb014df17e679c4893135ec7e0",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "TextView",
-        "description": "24dp / Headline Small / 12dp",
-        "platform": "ANDROID",
-        "variant": "Style=MD / H2, Addons=None, Horizontal Margin=Both"
-    },
-    {
         "key": "c79ad075963318177956621219ef1326587a57a3",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -51549,6 +51567,15 @@
         "description": "24dp / Headline Small / 12dp",
         "platform": "ANDROID",
         "variant": "Style=MD / H2, Addons=None, Horizontal Margin=None"
+    },
+    {
+        "key": "b4ab9b06e69a7ffb014df17e679c4893135ec7e0",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "TextView",
+        "description": "24dp / Headline Small / 12dp",
+        "platform": "ANDROID",
+        "variant": "Style=MD / H2, Addons=None, Horizontal Margin=Both"
     },
     {
         "key": "095d40f90ef919fc0012de57af72448d9e453fe3",
@@ -51614,15 +51641,6 @@
         "variant": "Style=MD / H4, Addons=None, Horizontal Margin=None"
     },
     {
-        "key": "9b7de2fa4130315d945695d8aa83ac2bd2259590",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "TextView",
-        "description": "32dp / Headline xSmall / 12dp",
-        "platform": "IOS",
-        "variant": "Style=Section, Addons=None, Horizontal Margin=None"
-    },
-    {
         "key": "d0397a5355fd5859f018314c348470ce73ca418c",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -51630,6 +51648,15 @@
         "description": "32dp / Headline xSmall / 12dp",
         "platform": "IOS",
         "variant": "Style=Section, Addons=None, Horizontal Margin=Both"
+    },
+    {
+        "key": "9b7de2fa4130315d945695d8aa83ac2bd2259590",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "TextView",
+        "description": "32dp / Headline xSmall / 12dp",
+        "platform": "IOS",
+        "variant": "Style=Section, Addons=None, Horizontal Margin=None"
     },
     {
         "key": "ee2ca4fe2a9e9fb2fd4dfd45c1a4e480fcf88e9a",
@@ -51686,6 +51713,15 @@
         "variant": "Style=Section, Addons=None, Horizontal Margin=Only left"
     },
     {
+        "key": "6c209f547fb7f07f17a219aceaaef06b2de03f19",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "TextView",
+        "description": "32dp / Headline xSmall / 12dp",
+        "platform": "ANDROID",
+        "variant": "Style=Section, Addons=None, Horizontal Margin=Both"
+    },
+    {
         "key": "9e2a18e3dc6606a15af9fdd10ae9c0c592c73789",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -51731,15 +51767,6 @@
         "variant": "Style=Section, Addons=Value, Horizontal Margin=Both"
     },
     {
-        "key": "6c209f547fb7f07f17a219aceaaef06b2de03f19",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "TextView",
-        "description": "32dp / Headline xSmall / 12dp",
-        "platform": "ANDROID",
-        "variant": "Style=Section, Addons=None, Horizontal Margin=Both"
-    },
-    {
         "key": "057949bb1b28d58c34f3313e204322bc89f474de",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -51776,15 +51803,6 @@
         "variant": "Style=Custom, Addons=None, Horizontal Margin=Only left"
     },
     {
-        "key": "8b54770a63915aee89781cc6776f51cce8a2d9a0",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "TextView",
-        "description": "Custom",
-        "platform": "ANDROID",
-        "variant": "Style=Custom, Addons=None, Horizontal Margin=Both"
-    },
-    {
         "key": "e37c9bafd5ed4b0dcbbbe4c65abae8e3a5301d7b",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -51792,6 +51810,15 @@
         "description": "Custom",
         "platform": "ANDROID",
         "variant": "Style=Custom, Addons=None, Horizontal Margin=None"
+    },
+    {
+        "key": "8b54770a63915aee89781cc6776f51cce8a2d9a0",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "TextView",
+        "description": "Custom",
+        "platform": "ANDROID",
+        "variant": "Style=Custom, Addons=None, Horizontal Margin=Both"
     },
     {
         "key": "1f436ada39731d3cc863b34d1b96e1f93737ad7d",
@@ -52744,6 +52771,15 @@
         "variant": "Type=Action, Actions=Search, Theme=Light, State=Merged"
     },
     {
+        "key": "8c720084b50aa4a1453d429f458905072b42b81b",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "TopAppBar / Modal",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Type=Title, Actions=1 Icon, Theme=Light"
+    },
+    {
         "key": "c9f794d4d7b44be3d3f9ca3427878367c6d3b752",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -52796,15 +52832,6 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Type=Title + Subtitle, Actions=2 Icon, Theme=Light"
-    },
-    {
-        "key": "8c720084b50aa4a1453d429f458905072b42b81b",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "TopAppBar / Modal",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Type=Title, Actions=1 Icon, Theme=Light"
     },
     {
         "key": "8753b026f5b992f3a4056030427cc7cabbf25907",
@@ -52960,15 +52987,6 @@
         "variant": "Type=Empty, Actions=Empty, Theme=Light"
     },
     {
-        "key": "0583b64e709a29f48db6a3bfbe2a282b84f02669",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "TopAppBar / PageHeader",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Type=Title, Actions=Empty, Theme=Light"
-    },
-    {
         "key": "7c81a82445b43215775df50ab1703415ee6d7212",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -52976,6 +52994,15 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Type=Title, Actions=1 Icon, Theme=Light"
+    },
+    {
+        "key": "0583b64e709a29f48db6a3bfbe2a282b84f02669",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "TopAppBar / PageHeader",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Type=Title, Actions=Empty, Theme=Light"
     },
     {
         "key": "dea82e58ea938c0774faaab8aba273a4008c4e12",
@@ -54218,24 +54245,6 @@
         "variant": "State=Default, Accounts and Deposits=Off, Credits=Off, Investments=Off"
     },
     {
-        "key": "22999fcc6ca52b1bab4495cdd2e90f9fc634af8f",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "UserProductsWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "State=Default, Accounts and Deposits=Off, Credits=Off, Investments=On"
-    },
-    {
-        "key": "0e728c16dd6796a0071329b0f5aedb23f3d08260",
-        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
-        "library_name": "iOS :: Widgets",
-        "name": "UserProductsWidget",
-        "description": "",
-        "platform": "IOS",
-        "variant": "State=Default, Accounts and Deposits=On, Credits=On, Investments=On"
-    },
-    {
         "key": "a13395d58fec77bee67587e541aa790d58fc6018",
         "file_key": "7UfTipmCMpLEHpqVnJEGVu",
         "library_name": "iOS :: Widgets",
@@ -54261,6 +54270,24 @@
         "description": "",
         "platform": "IOS",
         "variant": "State=Default, Accounts and Deposits=On, Credits=Off, Investments=Off"
+    },
+    {
+        "key": "22999fcc6ca52b1bab4495cdd2e90f9fc634af8f",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "UserProductsWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "State=Default, Accounts and Deposits=Off, Credits=Off, Investments=On"
+    },
+    {
+        "key": "0e728c16dd6796a0071329b0f5aedb23f3d08260",
+        "file_key": "7UfTipmCMpLEHpqVnJEGVu",
+        "library_name": "iOS :: Widgets",
+        "name": "UserProductsWidget",
+        "description": "",
+        "platform": "IOS",
+        "variant": "State=Default, Accounts and Deposits=On, Credits=On, Investments=On"
     },
     {
         "key": "6a5c518f04256782ed2bc7d2c8c13435a12019c2",
@@ -55392,15 +55419,6 @@
         "variant": "Before=Message, After=None"
     },
     {
-        "key": "77440ee9b76523eb16595fcda064f0e3ece1b52f",
-        "file_key": "WpVRCax0wWIdgSExp5CAqu",
-        "library_name": "iOS :: Common Components",
-        "name": "VerticalStepsView",
-        "description": "",
-        "platform": "IOS",
-        "variant": "Position=last, List=ordered, DataView=2 3 lines, Button=off"
-    },
-    {
         "key": "4aa2d0308c78ddc541d363614d09fc36fc6a6b43",
         "file_key": "WpVRCax0wWIdgSExp5CAqu",
         "library_name": "iOS :: Common Components",
@@ -55408,6 +55426,15 @@
         "description": "",
         "platform": "IOS",
         "variant": "Position=in between, List=ordered, DataView=2 3 lines, Button=off"
+    },
+    {
+        "key": "77440ee9b76523eb16595fcda064f0e3ece1b52f",
+        "file_key": "WpVRCax0wWIdgSExp5CAqu",
+        "library_name": "iOS :: Common Components",
+        "name": "VerticalStepsView",
+        "description": "",
+        "platform": "IOS",
+        "variant": "Position=last, List=ordered, DataView=2 3 lines, Button=off"
     },
     {
         "key": "95d0d3e091e0f115088195c5bc465a9641112690",
@@ -55824,6 +55851,15 @@
         "variant": "Position=last, List=unchecked, DataView=2 3 lines, Button=off"
     },
     {
+        "key": "3b67c5b4c847ad769893939cbbe2063beb344af9",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "VerticalStepsView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Position=last, List=ordered, DataView=2 3 lines, Button=off"
+    },
+    {
         "key": "d42da8775f7b9d9282d913ad52db2e627918acc6",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -55831,6 +55867,15 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Position=first, List=ordered, DataView=2 3 lines, Button=off"
+    },
+    {
+        "key": "1ac5f96a69dded3ea267836b17f069d6e1089f2c",
+        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
+        "library_name": "Android :: Common Components",
+        "name": "VerticalStepsView",
+        "description": "",
+        "platform": "ANDROID",
+        "variant": "Position=in between, List=ordered, DataView=2 3 lines, Button=off"
     },
     {
         "key": "d0ba594c998c2023b40cf8009d4220ef87fabf8f",
@@ -56049,15 +56094,6 @@
         "variant": "Position=in between, List=ordered, DataView=2 3 lines, Button=on"
     },
     {
-        "key": "3b67c5b4c847ad769893939cbbe2063beb344af9",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "VerticalStepsView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Position=last, List=ordered, DataView=2 3 lines, Button=off"
-    },
-    {
         "key": "38c1fd4a158f5cd453e43d6457a69913dfbf3397",
         "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
         "library_name": "Android :: Common Components",
@@ -56146,15 +56182,6 @@
         "description": "",
         "platform": "ANDROID",
         "variant": "Position=in between, List=checked, DataView=2 3 lines, Button=on"
-    },
-    {
-        "key": "1ac5f96a69dded3ea267836b17f069d6e1089f2c",
-        "file_key": "2n7CylUeB7JRRNLX4jfYMZ",
-        "library_name": "Android :: Common Components",
-        "name": "VerticalStepsView",
-        "description": "",
-        "platform": "ANDROID",
-        "variant": "Position=in between, List=ordered, DataView=2 3 lines, Button=off"
     },
     {
         "key": "171d5a9afb204cb1e97f49ac57a85da9961ac4bd",
