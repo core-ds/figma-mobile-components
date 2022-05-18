@@ -16,7 +16,7 @@ jobs:
 
     - run: yarn parse
       env:
-        FIGMA_TOKEN: ${{ secrets.FIGMA_API_TOKEN }}
+        FIGMA_API_TOKEN: ${{ secrets.FIGMA_API_TOKEN }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master
