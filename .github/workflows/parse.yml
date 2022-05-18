@@ -1,0 +1,28 @@
+name: parse
+
+on: repository_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+
+    - run: yarn install
+    - run: yarn add @alfalab/icons@latest
+    - run: yarn build
+    - run: npm version minor --git-tag-version false
+
+    - run: npm run parse
+      env:
+        FIGMA_TOKEN: ${{ secrets.FIGMA_API_TOKEN }}
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.BOT_AUTH_TOKEN }}
+        tags: true
