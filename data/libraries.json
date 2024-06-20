@@ -5,19 +5,19 @@
             "file_key": "M0baUF3IV87RjunC3eo9Ha"
         },
         {
-            "name": "iOS :: Common Components",
-            "file_key": "WpVRCax0wWIdgSExp5CAqu"
+            "name": "iOS :: Basic",
+            "file_key": "JAPe6MS1jTSOBR5mfECzOq"
         },
         {
             "name": "iOS :: Controls",
-            "file_key": "Kf27zXqTtRePb8Vopn74nC"
-        },
-        {
-            "name": "iOS :: Native Components",
-            "file_key": "3teXKVZz4rc0XnFXxrbhAt"
+            "file_key": "JuM4aiP9jh5L06qCzPcTfI"
         },
         {
             "name": "iOS :: Sheets",
+            "file_key": "ge9dK3r7Rk31bhXUUpmsxd"
+        },
+        {
+            "name": "iOS :: Modules",
             "file_key": "S1MywyqXOFripEsvMJ1zrz"
         },
         {
@@ -26,11 +26,7 @@
         },
         {
             "name": "iOS :: Views",
-            "file_key": "zNXb19Hl7n3oWtwaK8zsIC"
-        },
-        {
-            "name": "iOS :: Voice Assistent Components",
-            "file_key": "uddXQJQwqzg1KWNJKSkRho"
+            "file_key": "wF80Fbm8qD9Htohy2tC6am"
         },
         {
             "name": "iOS :: Widgets",
@@ -41,8 +37,16 @@
             "file_key": "OKxvBRt9AzBpzmuPkPXyR1"
         },
         {
-            "name": "iOS Typography",
-            "file_key": "KDnAFN7TahUEDndgaJRhOi",
+            "name": "iOS :: StackWrapper",
+            "file_key": "WrEonZ8u76cyuGiluSVVS7"
+        },
+         {
+            "name": "iOS :: GenericWrapper",
+            "file_key": "cA4SfAWFtVm7t2LOxABJME"
+        },
+        {
+            "name": "iOS :: Typography",
+            "file_key": "xRLIhZS6QU3sXYuRo8yT8O",
             "type": "typography"
         }
     ],
@@ -52,19 +56,19 @@
             "file_key": "qsyDdXzbuawc5eIR0BackT"
         },
         {
-            "name": "Android :: Common Components",
-            "file_key": "2n7CylUeB7JRRNLX4jfYMZ"
+            "name": "Android :: Basic",
+            "file_key": "2Droyi8LYl4bfCIaUfotBg"
         },
         {
             "name": "Android :: Controls",
-            "file_key": "cNZBbqFLNv2OLUxmWRZmmz"
-        },
-        {
-            "name": "Android :: Native Components",
-            "file_key": "9eszudgrytwEJS23josgde"
+            "file_key": "NjO2NEgVJpSmyJ7fZStjYD"
         },
         {
             "name": "Android :: Sheets",
+            "file_key": "7d0OwkUfNd06IR7V6c0Zrc"
+        },
+        {
+            "name": "Android :: Modules",
             "file_key": "DUjSeBmzNJz3PdZnmvtTMX"
         },
         {
@@ -73,11 +77,7 @@
         },
         {
             "name": "Android :: Views",
-            "file_key": "6LwUnoFfaGqUyyWzi5dRkm"
-        },
-        {
-            "name": "Android :: Voice Assistent Components",
-            "file_key": "y1OIfBOuSEl5OSLgK4TKq3"
+            "file_key": "x9OSxTQK1cfdH46Wm1qEzy"
         },
         {
             "name": "Android :: Widgets",
@@ -87,9 +87,17 @@
             "name": "Android :: Wrappers",
             "file_key": "WGE9sFCpeOgIWVIKLxklI9"
         },
+         {
+            "name": "Android :: StackView",
+            "file_key": "RdTh6uWRXZgWx8Xr6NGXmf"
+        },
         {
-            "name": "Android Typography",
-            "file_key": "Ffc7g24UX64BCNmW6GxXUy",
+            "name": "Android :: GenericWrapper",
+            "file_key": "u9y1v7vJeDd9Y5TnwJMFhJ"
+        },
+        {
+            "name": "Android :: Typography",
+            "file_key": "RNLbnGKdIBMjW5iyrIDsIA",
             "type": "typography"
         }
     ]
