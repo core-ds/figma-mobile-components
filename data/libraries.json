@@ -43,6 +43,11 @@
          {
             "name": "iOS :: GenericWrapper",
             "file_key": "cA4SfAWFtVm7t2LOxABJME"
+        },
+        {
+            "name": "iOS :: Typography",
+            "file_key": "xRLIhZS6QU3sXYuRo8yT8O",
+            "type": "typography"
         }
     ],
     "ANDROID": [
@@ -89,6 +94,11 @@
         {
             "name": "Android :: GenericWrapper",
             "file_key": "u9y1v7vJeDd9Y5TnwJMFhJ"
+        },
+        {
+            "name": "Android :: Typography",
+            "file_key": "RNLbnGKdIBMjW5iyrIDsIA",
+            "type": "typography"
         }
     ]
 }
