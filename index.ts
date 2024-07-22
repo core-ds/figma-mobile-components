@@ -47,7 +47,7 @@ const filterItems = (component: ShortFigmaItem) => {
 };
 
 const findPairs = async (components: ShortFigmaItem[]) => {
-  const r = await axios.get("https://digital.alfabank.ru/figma-pairs/pairs");
+  const r = await axios.get("https://design.alfabank.ru/figma-pairs/pairs");
   const keys = r.data.toString();
 
   const byPlatform = {
@@ -87,7 +87,7 @@ const findPairs = async (components: ShortFigmaItem[]) => {
   }
 
   for await (const [c1, c2] of newPairs) {
-    await axios.post("https://digital.alfabank.ru/figma-pairs/link", {
+    await axios.post("https://design.alfabank.ru/figma-pairs/link", {
       key1: c1.key,
       key2: c2.key,
     });
