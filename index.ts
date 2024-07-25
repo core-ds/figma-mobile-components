@@ -8,6 +8,7 @@ import {
   downloadImage,
   variantsAdapter,
   nameAdapter,
+  chunkArray,
 } from "./utils";
 import axios from "axios";
 
@@ -99,7 +100,11 @@ const findPairs = async (components: ShortFigmaItem[]) => {
   const allComponents: ShortFigmaItem[] = [];
 
   for (let platform of Object.keys(libraries) as Platform[]) {
+    console.log(`\n[~] Start parsing ${platform}`);
+
     for (let library of libraries[platform]) {
+      console.log(`\n[~] Start parsing ${library.name}`);
+
       try {
         const response =
           library.type === "typography"
@@ -114,21 +119,27 @@ const findPairs = async (components: ShortFigmaItem[]) => {
             .filter(filterItems)
         );
 
-        console.log(`[+]${library.file_key} saved`);
+        console.log(`[+] ${library.file_key} saved`);
 
-        for (let style of response) {
-          const dest = path.resolve(__dirname, "data/images");
+        await chunkArray(response, 50).map((chunk) =>
+          Promise.all(
+            chunk.map(async (style) => {
+              const dest = path.resolve(__dirname, "data/images");
 
-          await downloadImage(style.thumbnail_url, `${style.key}.png`, dest)
-            .then((saved: boolean) => {
-              if (saved) {
-                console.log(`[+]${style.name}:${style.key} saved`);
-              }
+              await downloadImage(style.thumbnail_url, `${style.key}.png`, dest)
+                .then((saved: boolean) => {
+                  if (saved) {
+                    console.log(`[+] ${style.name}:${style.key} saved`);
+                  }
+                })
+                .catch((err) => {
+                  console.error(
+                    `[-] ${style.name}:${style.key}: ${err.message}`
+                  );
+                });
             })
-            .catch((err) => {
-              console.error(`[-]${style.name}:${style.key}: ${err.message}`);
-            });
-        }
+          )
+        );
       } catch (e) {
         console.log(e);
       }
@@ -139,6 +150,8 @@ const findPairs = async (components: ShortFigmaItem[]) => {
     `${a.name}: ${a.description}`.localeCompare(`${b.name}: ${b.description}`)
   );
 
+  console.log(`\n[~] Saving components...`);
+
   const componentsFileName = path.resolve(__dirname, "./data/components.json");
   await writeFile(
     componentsFileName,
@@ -146,5 +159,9 @@ const findPairs = async (components: ShortFigmaItem[]) => {
     "UTF-8"
   );
 
-  await findPairs(allComponents);
+  try {
+    await findPairs(allComponents);
+  } catch (e) {
+    console.log(`[!] ${e.message}`);
+  }
 })();

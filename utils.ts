@@ -1,9 +1,13 @@
-import axios from 'axios';
-import fs from 'fs';
-import path from 'path';
+import axios from "axios";
+import fs from "fs";
+import path from "path";
 
 const FIGMA_API_TOKEN = process.env.FIGMA_API_TOKEN;
-const FIGMA_API_URL = 'https://api.figma.com/v1';
+if (!FIGMA_API_TOKEN) {
+  throw new Error("Missing FIGMA_API_TOKEN");
+}
+
+const FIGMA_API_URL = "https://api.figma.com/v1";
 
 const MAX_REQUESTS_COUNT = 5;
 const INTERVAL_MS = 10;
@@ -12,120 +16,129 @@ let PENDING_REQUESTS = 0;
 const api = axios.create({});
 
 api.interceptors.request.use(
-    (config) =>
-        new Promise((resolve) => {
-            const interval = setInterval(() => {
-                if (PENDING_REQUESTS < MAX_REQUESTS_COUNT) {
-                    PENDING_REQUESTS += 1;
-                    clearInterval(interval);
-                    resolve(config);
-                }
-            }, INTERVAL_MS);
-        })
+  (config) =>
+    new Promise((resolve) => {
+      const interval = setInterval(() => {
+        if (PENDING_REQUESTS < MAX_REQUESTS_COUNT) {
+          PENDING_REQUESTS += 1;
+          clearInterval(interval);
+          resolve(config);
+        }
+      }, INTERVAL_MS);
+    })
 );
 
 api.interceptors.response.use(
-    (response) => {
-        PENDING_REQUESTS = Math.max(0, PENDING_REQUESTS - 1);
-        return Promise.resolve(response);
-    },
-    (error) => {
-        PENDING_REQUESTS = Math.max(0, PENDING_REQUESTS - 1);
-        return Promise.reject(error);
-    }
+  (response) => {
+    PENDING_REQUESTS = Math.max(0, PENDING_REQUESTS - 1);
+    return Promise.resolve(response);
+  },
+  (error) => {
+    PENDING_REQUESTS = Math.max(0, PENDING_REQUESTS - 1);
+    return Promise.reject(error);
+  }
 );
 
 export async function requestComponents(fileId: string) {
-    const reqUrl = `${FIGMA_API_URL}/files/${fileId}/components`;
+  const reqUrl = `${FIGMA_API_URL}/files/${fileId}/components`;
 
-    const {
-        data: {
-            meta: { components },
-        },
-    } = await axios.get<FigmaComponentsResponse>(reqUrl, {
-        headers: { 'X-FIGMA-TOKEN': FIGMA_API_TOKEN },
-    });
+  const {
+    data: {
+      meta: { components },
+    },
+  } = await axios.get<FigmaComponentsResponse>(reqUrl, {
+    headers: { "X-FIGMA-TOKEN": FIGMA_API_TOKEN },
+  });
 
-    return components;
+  return components;
 }
 
 export async function requestStyles(fileId: string) {
-    const reqUrl = `${FIGMA_API_URL}/files/${fileId}/styles`;
+  const reqUrl = `${FIGMA_API_URL}/files/${fileId}/styles`;
 
-    const {
-        data: {
-            meta: { styles },
-        },
-    } = await axios.get<FigmaTextStylesResponse>(reqUrl, {
-        headers: { 'X-FIGMA-TOKEN': FIGMA_API_TOKEN },
-    });
+  const {
+    data: {
+      meta: { styles },
+    },
+  } = await axios.get<FigmaTextStylesResponse>(reqUrl, {
+    headers: { "X-FIGMA-TOKEN": FIGMA_API_TOKEN },
+  });
 
-    return styles;
+  return styles;
 }
 
 export async function downloadImage(
-    url: string,
-    filename: string,
-    destFolder: string
+  url: string,
+  filename: string,
+  destFolder: string
 ): Promise<boolean> {
-    const destPath = path.resolve(destFolder, filename);
+  const destPath = path.resolve(destFolder, filename);
 
-    if (fs.existsSync(destPath)) return Promise.resolve(false);
+  if (fs.existsSync(destPath)) return Promise.resolve(false);
 
-    const writer = fs.createWriteStream(destPath);
+  const writer = fs.createWriteStream(destPath);
 
-    const response = await api({
-        url,
-        method: 'GET',
-        responseType: 'stream',
-    });
+  const response = await api({
+    url,
+    method: "GET",
+    responseType: "stream",
+  });
 
-    response.data.pipe(writer);
+  response.data.pipe(writer);
 
-    return new Promise((resolve, reject) => {
-        writer.on('finish', () => resolve(true));
-        writer.on('error', (err) => reject(err));
-    });
+  return new Promise((resolve, reject) => {
+    writer.on("finish", () => resolve(true));
+    writer.on("error", (err) => reject(err));
+  });
 }
 
 export function nameAdapter(name: string) {
-    if (name === 'IconElementView') {
-        name = 'IconView';
-    }
+  if (name === "IconElementView") {
+    name = "IconView";
+  }
 
-    if (name === 'ButtonView') {
-        name = 'MainButton';
-    }
+  if (name === "ButtonView") {
+    name = "MainButton";
+  }
 
-    if (name === '🤟ButtonViewTemplate') {
-        name = '🤟MainButtonTemplate';
-    }
+  if (name === "🤟ButtonViewTemplate") {
+    name = "🤟MainButtonTemplate";
+  }
 
-    return name.toLowerCase();
+  return name.toLowerCase();
 }
 
 export function variantsAdapter(variantString: string) {
-    if (!variantString) return '';
+  if (!variantString) return "";
 
-    const adaptVariant = ([key, value]) => {
-        if (key === 'Ellipsize') {
-            key = 'Truncation';
+  const adaptVariant = ([key, value]) => {
+    if (key === "Ellipsize") {
+      key = "Truncation";
 
-            if (value === 'Ellipsize') {
-                value = 'Truncated';
-            }
-        }
+      if (value === "Ellipsize") {
+        value = "Truncated";
+      }
+    }
 
-        return [key, value];
-    };
+    return [key, value];
+  };
 
-    const variantDict = variantString.split(', ').reduce((acc, variant) => {
-        const [key, value] = adaptVariant(variant.split('=') as [string, string]);
+  const variantDict = variantString.split(", ").reduce((acc, variant) => {
+    const [key, value] = adaptVariant(variant.split("=") as [string, string]);
 
-        acc[key] = value;
+    acc[key] = value;
 
-        return acc;
-    }, {});
+    return acc;
+  }, {});
 
-    return JSON.stringify(variantDict).toLowerCase();
+  return JSON.stringify(variantDict).toLowerCase();
+}
+
+export function chunkArray<T>(array: T[], size: number): T[][] {
+  const result: T[][] = [];
+  for (let i = 0; i < array.length; i += size) {
+    result.push(array.slice(i, i + size));
+  }
+
+  return result;
 }
